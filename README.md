@@ -1,6 +1,6 @@
 # Jam-2020-equipeA
 
-Équipe	Dev	Art	Design 1	Design 2	Thèmes	
+## Équipe
 
  * Damien	
  * Dylan	
@@ -9,5 +9,6 @@
 
 ## Thèmes
 
-Prend ton temps	L'empire du mal
+ * Prend ton temps	
+ * L'empire du mal
 

@@ -56,8 +56,14 @@ public class Client : MonoBehaviour
                 break;
             case State.Leaving:
                 ResetDialogue();
+                if (data.byeLine.Length > 2)
+                {
+                    GameManager.instance.clientBye.gameObject.SetActive(true);
+                    GameManager.instance.clientByeText.text = data.byeLine;
+                }
                 break;
             case State.Unspawn:
+                GameManager.instance.clientBye.gameObject.SetActive(false);
                 GameObject.Destroy(this);
                 break;
         }

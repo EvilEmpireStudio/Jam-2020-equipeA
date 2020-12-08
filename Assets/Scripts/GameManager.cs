@@ -26,6 +26,9 @@ public class GameManager : MonoBehaviour
     public Button[] answerButtons;
     public Text[] answerTexts;
 
+    public Image clientBye;
+    public Text clientByeText;
+
     // Start is called before the first frame update
     void Start()
     {

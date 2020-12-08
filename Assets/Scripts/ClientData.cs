@@ -10,4 +10,5 @@ public class ClientData : ScriptableObject
     public ItemData[] items;
     public int[] test;
     public Punchline[] lines;
+    public string byeLine;
 }

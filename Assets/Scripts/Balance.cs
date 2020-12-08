@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Scanner : MonoBehaviour
+public class Balance : MonoBehaviour
 {
     private GameObject currentItem;
     private float currentScanningTime;
-    public float scanTime = 1f;
+    public float scanTime = 0.5f;
 
     // Start is called before the first frame update
     void Start()
     {
-        currentScanningTime = 0f;   
+        currentScanningTime = 0f;
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -19,7 +19,7 @@ public class Scanner : MonoBehaviour
         if (collider.gameObject.layer == GameManager.ITEM_LAYER)
         {
             Item item = collider.gameObject.GetComponent<Item>();
-            if (currentItem == null && currentItem != collider.gameObject && item.state == Item.State.ReadyToScan)
+            if (currentItem == null && currentItem != collider.gameObject && item.state == Item.State.ReadyToWeight)
             {
                 currentItem = collider.gameObject;
             }
@@ -38,7 +38,7 @@ public class Scanner : MonoBehaviour
             currentScanningTime += Time.fixedDeltaTime;
             if (currentScanningTime > scanTime)
             {
-                collider.GetComponent<Item>().setState(Item.State.Scanned);
+                collider.GetComponent<Item>().setState(Item.State.ReadyToScan);
             }
         }
     }

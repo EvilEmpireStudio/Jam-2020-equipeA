@@ -13,6 +13,7 @@ public class Item : MonoBehaviour
     public State state;
 
     public ItemData data;
+    public Client client;
 
     void Start()
     {
@@ -20,6 +21,11 @@ public class Item : MonoBehaviour
         {
             applyData();
         }
+    }
+
+    public Client GetClient()
+    {
+        return client;
     }
 
     public void applyData()
@@ -49,9 +55,14 @@ public class Item : MonoBehaviour
     {
         state = st;
 
-        if (state == State.Scanned)
+        switch (state)
         {
-            GetComponent<SpriteRenderer>().color = Color.green;
+            case State.Scanned:
+                GetComponent<SpriteRenderer>().color = Color.green;
+                break;
+            default:
+                GetComponent<SpriteRenderer>().color = Color.white;
+                break;
         }
     }
 

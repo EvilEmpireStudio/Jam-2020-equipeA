@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,14 +12,19 @@ public class GameManager : MonoBehaviour
     public GameObject itemPrefab;
 
     //Client
-    public GameObject clientSpawner;
-    public GameObject clientDialoguePos;
-    public GameObject clientUnspawn;
+    public Vector3 clientSpawner;
     public GameObject clientPrefab;
     public ClientData[] clientDataList;
     public Client currentClient;
 
     private int currentClientIndex = 0;
+
+    //Dialogue UI
+    public Image clientDialogueBubble;
+    public Text clientDialogueText;
+
+    public Button[] answerButtons;
+    public Text[] answerTexts;
 
     // Start is called before the first frame update
     void Start()
@@ -35,12 +41,29 @@ public class GameManager : MonoBehaviour
     {
         if (currentClient == null) //time to spawn a client
         {
-            Vector3 spawnPos = clientSpawner.transform.position;
-            GameObject clientGO = GameObject.Instantiate(clientPrefab, spawnPos, Quaternion.identity);
+            GameObject clientGO = GameObject.Instantiate(clientPrefab, clientSpawner, Quaternion.identity);
             currentClient = clientGO.GetComponent<Client>();
             currentClient.data = clientDataList[currentClientIndex];
             currentClient.init();
             currentClient.spawnClientItems();
+        }
+    }
+
+    public void Answer(int id)
+    {
+        DesactiveAnswers();
+
+        if (currentClient != null)
+        {
+            currentClient.Answer(id);
+        }
+    }
+
+    public void DesactiveAnswers()
+    {
+        foreach (Button button in answerButtons)
+        {
+            button.gameObject.SetActive(false);
         }
     }
 }

@@ -15,11 +15,22 @@ public class Client : MonoBehaviour
 
     public ClientData data;
 
-    public GameObject clientSpawner;
-    public GameObject clientDialoguePos;
-    public GameObject clientUnspawn;
-
     public int itemsToBuyNb = 0;
+
+    //dialogue
+    private int currentLine = 0;
+    private float lineCooldown = 0f;
+    private enum LineState
+    {
+        NotDisplayed,
+        InProgress,
+        Finished
+    }
+    private LineState currentLineState = LineState.NotDisplayed;
+    private bool answersLoaded = false;
+    private bool answerDone = false;
+    private int currentAnswer = -1;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,23 +43,112 @@ public class Client : MonoBehaviour
 
     private void Update()
     {
-        if (state == State.Dialogue && itemsToBuyNb <= 0)
+        switch (state)
         {
-            Animator animator = gameObject.GetComponent<Animator>();
-            animator.SetBool("CanLeave",true);
-        } else if (state == State.Unspawn)
-        {
-            //warn the game manager
-            GameObject.Destroy(this);
+            case State.Dialogue :
+                if (itemsToBuyNb <= 0)
+                {
+                    Animator animator = gameObject.GetComponent<Animator>();
+                    animator.SetBool("CanLeave", true);
+                }
+
+                UpdateDialogue();
+                break;
+            case State.Leaving:
+                ResetDialogue();
+                break;
+            case State.Unspawn:
+                GameObject.Destroy(this);
+                break;
         }
+    }
+
+    private void ResetDialogue()
+    {
+        currentLineState = LineState.NotDisplayed;
+        answersLoaded = false;
+        answerDone = false;
+        currentAnswer = -1;
+        GameManager.instance.clientDialogueBubble.gameObject.SetActive(false);
+        GameManager.instance.DesactiveAnswers();
+        currentLine = 0;
+    }
+
+    private void UpdateDialogue()
+    {
+        if (data.lines.Length > currentLine)
+        {
+            switch (currentLineState)
+            {
+                case LineState.NotDisplayed:
+                    //load the ui
+                    //put in InProgress state;
+                    GameManager.instance.clientDialogueText.text = data.lines[currentLine].line;
+                    GameManager.instance.clientDialogueBubble.gameObject.SetActive(true);
+                    currentLineState = LineState.InProgress;
+                    break;
+                case LineState.InProgress:
+                    //wait for the end
+                    // could be a dealy
+                    // could be waiting for an input
+                    // switch to Finished state
+
+                    if (lineCooldown > 0f)
+                    {
+                        lineCooldown += Time.deltaTime;
+                        if (lineCooldown > data.lines[currentLine].delay)
+                        {
+                            currentLineState = LineState.Finished;
+                            lineCooldown = 0f;
+                            break;
+                        }
+                    }
+
+                    if (data.lines[currentLine].answers.Length <= 0 && lineCooldown <= 0f)
+                    {
+                        lineCooldown = 0.01f;
+                    }
+                    else if (!answersLoaded)
+                    {
+                        //load answers
+                        int i = 0;
+                        foreach (string answer in data.lines[currentLine].answers)
+                        {
+                            GameManager.instance.answerButtons[i].gameObject.SetActive(true);
+                            GameManager.instance.answerTexts[i].text = answer;
+                            i++;
+                        }
+                        answersLoaded = true;
+                    }
+                    else if (answersLoaded && answerDone)
+                    {
+                        // can use currentAnswer info
+                        currentLineState = LineState.Finished;
+                    }
+                    break;
+                case LineState.Finished:
+                    // switch to next line if possible
+                    // switch to NotDisplayed or nothing
+                    GameManager.instance.clientDialogueBubble.gameObject.SetActive(false);
+                    GameManager.instance.DesactiveAnswers();
+                    currentLine++;
+                    currentLineState = LineState.NotDisplayed;
+                    answersLoaded = false;
+                    answerDone = false;
+                    currentAnswer = -1;
+                    break;
+            }
+        }
+    }
+
+    public void Answer (int id)
+    {
+        currentAnswer = id;
+        answerDone = true;
     }
 
     public void init()
     {
-        clientSpawner = GameManager.instance.clientSpawner;
-        clientDialoguePos = GameManager.instance.clientDialoguePos;
-        clientUnspawn = GameManager.instance.clientUnspawn;
-
         applyData();
     }
 

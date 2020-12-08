@@ -8,4 +8,6 @@ public class ClientData : ScriptableObject
     public Sprite sprite;
 
     public ItemData[] items;
+    public int[] test;
+    public Punchline[] lines;
 }

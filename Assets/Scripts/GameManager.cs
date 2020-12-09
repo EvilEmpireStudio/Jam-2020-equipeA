@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
 
     public Button[] answerButtons;
     public Text[] answerTexts;
+    public GameObject[] censored;
 
     public Image clientBye;
     public Text clientByeText;
@@ -70,6 +71,12 @@ public class GameManager : MonoBehaviour
 
     public void Answer(int id)
     {
+        if (currentClient.isAnswerCensored(id))
+        {
+            censored[id].SetActive(true);
+            return;
+        }
+
         DesactiveAnswers();
 
         if (currentClient != null)
@@ -83,6 +90,11 @@ public class GameManager : MonoBehaviour
         foreach (Button button in answerButtons)
         {
             button.gameObject.SetActive(false);
+        }
+
+        foreach (GameObject go in censored)
+        {
+            go.SetActive(false);
         }
     }
 

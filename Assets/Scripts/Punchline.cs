@@ -7,5 +7,6 @@ public class Punchline : ScriptableObject
 {
     public string line;
     public string[] answers;
+    public bool[] censored;
     public float delay = 5f;
 }

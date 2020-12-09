@@ -153,6 +153,11 @@ public class Client : MonoBehaviour
         answerDone = true;
     }
 
+    public bool isAnswerCensored(int id)
+    {
+        return data.lines[currentLine].censored.Length > id && data.lines[currentLine].censored[id];
+    }
+
     public void init()
     {
         applyData();

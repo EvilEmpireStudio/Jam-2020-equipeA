@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Balance : MonoBehaviour
 {
     private GameObject currentItem;
     private float currentScanningTime;
     public float scanTime = 0.5f;
+
+    public Text displayText;
 
     // Start is called before the first frame update
     void Start()
@@ -39,12 +42,21 @@ public class Balance : MonoBehaviour
             if (currentScanningTime > scanTime)
             {
                 collider.GetComponent<Item>().setState(Item.State.ReadyToScan);
+                displayText.text = (collider.GetComponent<Item>().data.price + Random.Range(0,5)) + "g";
+                displayText.color = Color.green;
+                 
+            }
+            else
+            {
+                displayText.text = "" + Random.Range(0, 100) + "g";
             }
         }
     }
 
     void OnTriggerExit2D(Collider2D collider)
     {
+        displayText.text = "0g";
+        displayText.color = Color.red;
         currentScanningTime = 0f;
         currentItem = null;
     }

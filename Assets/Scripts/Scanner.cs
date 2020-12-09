@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Scanner : MonoBehaviour
 {
     private GameObject currentItem;
     private float currentScanningTime;
     public float scanTime = 1f;
+
+    public Text displayName;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +42,8 @@ public class Scanner : MonoBehaviour
             if (currentScanningTime > scanTime)
             {
                 collider.GetComponent<Item>().setState(Item.State.Scanned);
+                displayName.text = collider.GetComponent<Item>().data.name;
+                displayName.color = Color.green;
             }
         }
     }
@@ -47,5 +52,8 @@ public class Scanner : MonoBehaviour
     {
         currentScanningTime = 0f;
         currentItem = null;
+
+        displayName.text = "-";
+        displayName.color = Color.red;
     }
 }

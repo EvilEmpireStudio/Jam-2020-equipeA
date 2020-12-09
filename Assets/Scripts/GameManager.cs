@@ -22,9 +22,11 @@ public class GameManager : MonoBehaviour
     public Vector3 clientSpawner;
     public GameObject clientPrefab;
     public ClientData[] clientDataList;
+    public SMS[] smsDataList;
     public Client currentClient;
 
     private int currentClientIndex = 0;
+    private int currentSMSIndex = 0;
 
     //Dialogue UI
     public Image clientDialogueBubble;
@@ -35,10 +37,6 @@ public class GameManager : MonoBehaviour
 
     public Image clientBye;
     public Text clientByeText;
-
-    //Phone
-    public GameObject phoneViewGO;
-    public GameObject phoneExitButton;
 
     // Start is called before the first frame update
     void Start()
@@ -57,9 +55,16 @@ public class GameManager : MonoBehaviour
         {
             GameObject clientGO = GameObject.Instantiate(clientPrefab, clientSpawner, Quaternion.identity);
             currentClient = clientGO.GetComponent<Client>();
-            currentClient.data = clientDataList[currentClientIndex];
+            currentClient.data = clientDataList[currentClientIndex++];
             currentClient.init();
             currentClient.spawnClientItems();
+
+            if (smsDataList.Length > currentSMSIndex && smsDataList[currentSMSIndex].EventIndex == currentClientIndex)
+            {
+                PhoneManager.instance.data = smsDataList[currentSMSIndex];
+                PhoneManager.instance.state = PhoneManager.State.ReceiveSMS;
+
+            }
         }
     }
 
@@ -84,27 +89,12 @@ public class GameManager : MonoBehaviour
     public void ActivatePhone()
     {
         mode = Mode.Phone;
-        UpdateMode();
+        PhoneManager.instance.UpdateDisplay();
     }
 
     public void UnactivatePhone()
     {
         mode = Mode.Shop;
-        UpdateMode();
-    }
-
-    public void UpdateMode()
-    {
-        switch (mode)
-        {
-            case Mode.Phone:
-                phoneViewGO.SetActive(true);
-                phoneExitButton.SetActive(true);
-                break;
-            case Mode.Shop:
-                phoneViewGO.SetActive(false);
-                phoneExitButton.SetActive(false);
-                break;
-        }
+        PhoneManager.instance.UpdateDisplay();
     }
 }

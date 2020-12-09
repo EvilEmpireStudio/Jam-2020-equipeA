@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
+  m_Name: SMS1
+  m_EditorClassIdentifier: 
+  line: "Salut, que fais tu ce soir ? je me disais qu\u2019on pourrait aller se mater
+    Ghost in the shell and buvant de l\u2019huile de vidange, \xE7a te tente ? Robota"
+  answers:
+  - Go  go go gadgeto
+  - "nope, ce soir je joue \xE0 cyberpunk nul"
+  EventIndex: 1

@@ -1296,6 +1296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1428992352}
   - component: {fileID: 1428992351}
+  - component: {fileID: 1428992353}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1324,6 +1325,11 @@ MonoBehaviour:
     type: 3}
   clientDataList:
   - {fileID: 11400000, guid: 43a28b3c29fd32c43992a5efcfc67bdc, type: 2}
+  - {fileID: 11400000, guid: 43a28b3c29fd32c43992a5efcfc67bdc, type: 2}
+  - {fileID: 11400000, guid: 43a28b3c29fd32c43992a5efcfc67bdc, type: 2}
+  - {fileID: 11400000, guid: 43a28b3c29fd32c43992a5efcfc67bdc, type: 2}
+  smsDataList:
+  - {fileID: 11400000, guid: 2ec1f5e78feadf142b067231c824568a, type: 2}
   currentClient: {fileID: 0}
   clientDialogueBubble: {fileID: 2004648693}
   clientDialogueText: {fileID: 527654314}
@@ -1337,8 +1343,6 @@ MonoBehaviour:
   - {fileID: 1563984491}
   clientBye: {fileID: 587410227}
   clientByeText: {fileID: 527799404}
-  phoneViewGO: {fileID: 2091004548}
-  phoneExitButton: {fileID: 55869553}
 --- !u!4 &1428992352
 Transform:
   m_ObjectHideFlags: 0
@@ -1353,6 +1357,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428992353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428992350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32dd083e892f35f4cbf097bbeea9cfa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  state: 3
+  notif: 0
+  open: 0
+  phoneViewGO: {fileID: 2091004548}
+  phoneExitButton: {fileID: 55869553}
 --- !u!1 &1473769100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,8 +1944,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 431.6117, y: 280.35803}
+  m_AnchoredPosition: {x: 0.229, y: 2.699}
+  m_SizeDelta: {x: 773.0528, y: 228.55798}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1824535149
 MonoBehaviour:

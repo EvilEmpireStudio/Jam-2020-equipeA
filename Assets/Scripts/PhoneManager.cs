@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PhoneManager : MonoBehaviour
 {
@@ -19,8 +20,17 @@ public class PhoneManager : MonoBehaviour
     public bool open = false;
 
     //display
+    public GameObject phoneNotif;
     public GameObject phoneViewGO;
     public GameObject phoneExitButton;
+    public Text mainSMS;
+
+    //answers
+    public GameObject[] options;
+    public Text[] optionText;
+
+    public Text answer;
+    public int answerId = -1;
 
     public static PhoneManager instance;
     // Start is called before the first frame update
@@ -44,16 +54,47 @@ public class PhoneManager : MonoBehaviour
                 //load text
                 //load answers
                 // switch to SMSLoaded
+                notif = true;
+                mainSMS.text = data.line;
+
+                for (int i = 0; i < data.answers.Length; i++)
+                {
+                    options[i].SetActive(true);
+                    optionText[i].text = data.answers[i];
+                }
+
+                answer.gameObject.SetActive(false);
+
+                state = State.SMSLoaded;
+
                 break;
             case State.SMSLoaded:
                 // waiting for a answer
                 // if an answered has been selected 
                 // display it and switch to SMSAnswered
+                if (answerId >= 0)
+                {
+                    answer.text = data.answers[answerId];
+                    answer.gameObject.SetActive(true);
+
+                    for (int i = 0; i < data.answers.Length; i++)
+                    {
+                        options[i].SetActive(false);
+                    }
+
+                    answerId = -1;
+                    state = State.SMSAnswered;
+                }
                 break;
             case State.SMSAnswered:
                 //waiting for a new sms
             default:
                 break;
+        }
+
+        if (notif != phoneNotif.activeSelf)
+        {
+            phoneNotif.SetActive(notif);
         }
 
     }
@@ -65,11 +106,22 @@ public class PhoneManager : MonoBehaviour
             case GameManager.Mode.Phone:
                 phoneViewGO.SetActive(true);
                 phoneExitButton.SetActive(true);
+                open = true;
+                if (notif)
+                {
+                    notif = false;
+                }
                 break;
             case GameManager.Mode.Shop:
                 phoneViewGO.SetActive(false);
                 phoneExitButton.SetActive(false);
+                open = false;
                 break;
         }
+    }
+
+    public void Answer(int id)
+    {
+        answerId = id;
     }
 }

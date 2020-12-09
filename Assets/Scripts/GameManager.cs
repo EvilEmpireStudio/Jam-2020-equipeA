@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
 
             if (smsDataList.Length > currentSMSIndex && smsDataList[currentSMSIndex].EventIndex == currentClientIndex)
             {
-                PhoneManager.instance.data = smsDataList[currentSMSIndex];
+                PhoneManager.instance.data = smsDataList[currentSMSIndex++];
                 PhoneManager.instance.state = PhoneManager.State.ReceiveSMS;
 
             }

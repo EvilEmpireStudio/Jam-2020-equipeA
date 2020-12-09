@@ -176,6 +176,8 @@ public class Client : MonoBehaviour
         foreach (ItemData itemData in data.items)
         {
             Vector3 spawnPos = generateItemSpawnPos();
+            float yOffset = itemData.sprite.rect.height / (2 * itemData.sprite.pixelsPerUnit);
+            spawnPos.Set(spawnPos.x, spawnPos.y + yOffset, spawnPos.z);
             GameObject itemGO = GameObject.Instantiate(GameManager.instance.itemPrefab, spawnPos, Quaternion.identity);
             Item item = itemGO.GetComponent<Item>();
             item.data = itemData;

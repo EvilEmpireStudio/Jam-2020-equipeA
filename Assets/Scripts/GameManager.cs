@@ -5,6 +5,13 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public enum Mode
+    {
+        Shop,
+        Phone
+    }
+    public Mode mode = Mode.Shop;
+
     public static int ITEM_LAYER = 8;
     public static GameManager instance;
 
@@ -28,6 +35,10 @@ public class GameManager : MonoBehaviour
 
     public Image clientBye;
     public Text clientByeText;
+
+    //Phone
+    public GameObject phoneViewGO;
+    public GameObject phoneExitButton;
 
     // Start is called before the first frame update
     void Start()
@@ -67,6 +78,33 @@ public class GameManager : MonoBehaviour
         foreach (Button button in answerButtons)
         {
             button.gameObject.SetActive(false);
+        }
+    }
+
+    public void ActivatePhone()
+    {
+        mode = Mode.Phone;
+        UpdateMode();
+    }
+
+    public void UnactivatePhone()
+    {
+        mode = Mode.Shop;
+        UpdateMode();
+    }
+
+    public void UpdateMode()
+    {
+        switch (mode)
+        {
+            case Mode.Phone:
+                phoneViewGO.SetActive(true);
+                phoneExitButton.SetActive(true);
+                break;
+            case Mode.Shop:
+                phoneViewGO.SetActive(false);
+                phoneExitButton.SetActive(false);
+                break;
         }
     }
 }

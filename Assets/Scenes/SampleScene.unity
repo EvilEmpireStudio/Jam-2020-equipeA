@@ -2098,14 +2098,7 @@ MonoBehaviour:
   clientSpawner: {x: -13, y: 0, z: 0}
   clientPrefab: {fileID: 8121187528134706455, guid: 2b287a5c3124900418baff3422b6ee6a,
     type: 3}
-  clientDataList:
-  - {fileID: 11400000, guid: 43a28b3c29fd32c43992a5efcfc67bdc, type: 2}
-  - {fileID: 11400000, guid: 43a28b3c29fd32c43992a5efcfc67bdc, type: 2}
-  - {fileID: 11400000, guid: 43a28b3c29fd32c43992a5efcfc67bdc, type: 2}
-  - {fileID: 11400000, guid: 43a28b3c29fd32c43992a5efcfc67bdc, type: 2}
-  smsDataList:
-  - {fileID: 11400000, guid: 2ec1f5e78feadf142b067231c824568a, type: 2}
-  - {fileID: 11400000, guid: 014b7da3dbee6aa41833df6d9bed7dbd, type: 2}
+  data: {fileID: 11400000, guid: f3fbf1a08288ab743840422de18ef62c, type: 2}
   currentClient: {fileID: 0}
   clientDialogueBubble: {fileID: 2004648693}
   clientDialogueText: {fileID: 527654314}

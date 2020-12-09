@@ -21,8 +21,7 @@ public class GameManager : MonoBehaviour
     //Client
     public Vector3 clientSpawner;
     public GameObject clientPrefab;
-    public ClientData[] clientDataList;
-    public SMS[] smsDataList;
+    public GameData data;
     public Client currentClient;
 
     private int currentClientIndex = 0;
@@ -56,13 +55,13 @@ public class GameManager : MonoBehaviour
         {
             GameObject clientGO = GameObject.Instantiate(clientPrefab, clientSpawner, Quaternion.identity);
             currentClient = clientGO.GetComponent<Client>();
-            currentClient.data = clientDataList[currentClientIndex++];
+            currentClient.data = data.clientDataList[currentClientIndex++];
             currentClient.init();
             currentClient.spawnClientItems();
 
-            if (smsDataList.Length > currentSMSIndex && smsDataList[currentSMSIndex].EventIndex == currentClientIndex)
+            if (data.smsDataList.Length > currentSMSIndex && data.smsDataList[currentSMSIndex].EventIndex == currentClientIndex)
             {
-                PhoneManager.instance.data = smsDataList[currentSMSIndex++];
+                PhoneManager.instance.data = data.smsDataList[currentSMSIndex++];
                 PhoneManager.instance.state = PhoneManager.State.ReceiveSMS;
 
             }

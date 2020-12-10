@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Orgueil-A
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: de796dd42f6b087489402b6fd422c6e6, type: 3}
-  items: []
+  items:
+  - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
+  - {fileID: 11400000, guid: 2d55a85f3c9535241a0e09472df05aa0, type: 2}
+  - {fileID: 11400000, guid: 2d55a85f3c9535241a0e09472df05aa0, type: 2}
   test: 
-  lines: []
-  byeLine: 
+  lines:
+  - {fileID: 11400000, guid: 708a576e2f1e49d409d822f0e1260411, type: 2}
+  byeLine: A la prochaine chef !

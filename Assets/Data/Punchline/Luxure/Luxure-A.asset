@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Luxure-A
   m_EditorClassIdentifier: 
-  line: 
+  line: "Bonjour, jeune \xE9ph\xE8be."
   answers:
-  - 
-  - 
-  - 
+  - Bonjour Madame.
+  - "En voil\xE0 des courses saines !"
+  - "Ah ! Notre plus fid\xE8le cliente !"
   censored: 000000
   delay: 5

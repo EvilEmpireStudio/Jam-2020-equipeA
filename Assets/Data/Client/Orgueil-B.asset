@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Orgueil-B
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: de796dd42f6b087489402b6fd422c6e6, type: 3}
-  items: []
+  items:
+  - {fileID: 11400000, guid: 2d55a85f3c9535241a0e09472df05aa0, type: 2}
+  - {fileID: 11400000, guid: 2d55a85f3c9535241a0e09472df05aa0, type: 2}
+  - {fileID: 11400000, guid: 2d55a85f3c9535241a0e09472df05aa0, type: 2}
   test: 
-  lines: []
-  byeLine: 
+  lines:
+  - {fileID: 11400000, guid: 37cd45ce91f36f042a49875650c6e3df, type: 2}
+  byeLine: "N'oubliez pas de vous abonner \xE0 ma chaine !"

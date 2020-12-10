@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Luxure-A 1
+  m_Name: Luxure-B
   m_EditorClassIdentifier: 
-  line: 
+  line: "Un conseil : ne jamais l\xE9siner sur la margarine ! "
   answers:
-  - 
-  - 
-  - 
+  - "Vous allez faire un g\xE2teau ?"
+  - "L'huile d'olive, c'est pour dorer vos l\xE9gumes ?"
+  - "Vous avez oubli\xE9 le sucre ?"
   censored: 000000
   delay: 5

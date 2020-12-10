@@ -20,5 +20,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
   test: 
   lines:
-  - {fileID: 0}
-  byeLine: 
+  - {fileID: 11400000, guid: 8b73bb5c85b1b2444b463f232196f8ac, type: 2}
+  byeLine: "Ca ne co\xFBte pas plus cher de bien manger !"

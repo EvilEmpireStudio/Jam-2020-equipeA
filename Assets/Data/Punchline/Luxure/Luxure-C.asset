@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Luxure-A 2
+  m_Name: Luxure-C
   m_EditorClassIdentifier: 
-  line: 
+  line: Ma pauvre minette qui est toute seule...
   answers:
-  - 
-  - 
-  - 
+  - "Je crois qu'il existe des groupes pour \xE7a."
+  - "Vous avez pens\xE9 \xE0 en prendre deux ?"
+  - Il lui faut un nouveau jouet ?
   censored: 000000
   delay: 5

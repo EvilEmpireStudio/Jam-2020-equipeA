@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Orgueil-C
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: de796dd42f6b087489402b6fd422c6e6, type: 3}
-  items: []
+  items:
+  - {fileID: 11400000, guid: b19fe771735299044a1a70c949e588fc, type: 2}
+  - {fileID: 11400000, guid: 2d55a85f3c9535241a0e09472df05aa0, type: 2}
+  - {fileID: 11400000, guid: c874b782732f0964092b8cdc59e0a86b, type: 2}
   test: 
-  lines: []
-  byeLine: 
+  lines:
+  - {fileID: 11400000, guid: 6333554d890a6cb44a8958e7a94dbfcd, type: 2}
+  byeLine: "Allez, je me teins les cheveux \xE0 1000 abonn\xE9s ! "

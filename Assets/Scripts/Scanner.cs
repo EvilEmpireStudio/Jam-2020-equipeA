@@ -10,6 +10,7 @@ public class Scanner : MonoBehaviour
     public float scanTime = 1f;
 
     public Text displayName;
+    public Text displayPrice;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +45,9 @@ public class Scanner : MonoBehaviour
                 collider.GetComponent<Item>().setState(Item.State.Scanned);
                 displayName.text = collider.GetComponent<Item>().data.name;
                 displayName.color = Color.green;
+
+                displayPrice.text = "" + collider.GetComponent<Item>().data.price + "€";
+                displayPrice.color = Color.green;
             }
         }
     }
@@ -55,5 +59,7 @@ public class Scanner : MonoBehaviour
 
         displayName.text = "-";
         displayName.color = Color.red;
+        displayPrice.text = "-";
+        displayPrice.color = Color.red;
     }
 }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Salut
   m_EditorClassIdentifier: 
-  line: 
+  line: Hey salut toi
   answers: []
   censored: 
   delay: 3

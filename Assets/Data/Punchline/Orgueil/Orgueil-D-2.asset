@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Orgueil-D-2
   m_EditorClassIdentifier: 
-  line: 
+  line: Un p'tit autographe ?
   answers:
-  - 
-  - 
-  - 
-  censored: 000000
+  - "Oui, sur votre ch\xE9quier par exemple !"
+  - Avec plaisir, je n'ai plus de combustible.
+  - Ca va les chevilles, sinon ?
+  censored: 000001
   delay: 5

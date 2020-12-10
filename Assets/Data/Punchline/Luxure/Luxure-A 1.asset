@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Gourmandise-A
+  m_Name: Luxure-A 1
   m_EditorClassIdentifier: 
-  line: ...
-  answers:
-  - Bonjour petite !
-  - Whoa, je peux avoir un bonbon aussi ?
-  - "J'esp\xE8re pour toi que tu as assez pour payer, sinon..."
-  censored: 
+  line: "Arr\xEAtez, vous allez me faire rougir. "
+  answers: []
+  censored: 000000
   delay: 5

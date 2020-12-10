@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Avarice-C
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: b9aa6884926624346a56d852657a84a6, type: 3}
-  items:
-  - {fileID: 11400000, guid: 54c2f0ccee4b26b4d9b1d4d0681c2b2f, type: 2}
-  - {fileID: 11400000, guid: f26023995aef95c49b811051fad915fd, type: 2}
+  items: []
   test: 
   lines:
-  - {fileID: 11400000, guid: ab4cb7990f3cd4c4fab55ccb56ebd02b, type: 2}
-  byeLine: 'Vivement le Black Friday. '
+  - {fileID: 11400000, guid: 8259f0a74c0255642964bd6b7e89b91a, type: 2}
+  byeLine: "Un client encaiss\xE9 est un client satisfait. "

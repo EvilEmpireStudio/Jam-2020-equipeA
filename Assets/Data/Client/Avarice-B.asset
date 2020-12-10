@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: Avarice-B
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: b9aa6884926624346a56d852657a84a6, type: 3}
-  items:
-  - {fileID: 11400000, guid: 63e2c3a242ee26b45972bbc5833456aa, type: 2}
+  items: []
   test: 
   lines:
   - {fileID: 11400000, guid: 6320cbe02be0d9a40b30656f1f639aed, type: 2}
-  - {fileID: 11400000, guid: 8259f0a74c0255642964bd6b7e89b91a, type: 2}
   byeLine: Oh, un centime par terre !

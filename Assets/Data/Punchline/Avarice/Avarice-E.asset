@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-E
   m_EditorClassIdentifier: 
-  line: "Clyde... Le magasin a vol\xE9 parce que vous n'avez pas respect\xE9 les
-    proc\xE9dures de s\xE9curit\xE9..."
+  line: "Clyde... Le magasin a \xE9t\xE9 vol\xE9 parce que vous n'avez pas respect\xE9
+    les proc\xE9dures de s\xE9curit\xE9..."
   answers: []
   censored: 
   delay: 5

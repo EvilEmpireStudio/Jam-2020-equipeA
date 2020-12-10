@@ -15,8 +15,9 @@ MonoBehaviour:
   line: "Nous avons invit\xE9 le Secours Populaire ! L'occasion de faire un geste
     pour les plus d\xE9munis. "
   answers:
-  - "Vous fa\xEEtes \xE7a juste pour l'image. "
-  - 'Vous voulez juste inciter les clients a acheter davantage. '
+  - "C'est pour l'image ou juste pour inciter les clients \xE0 acheter plus d'articles
+    ? "
+  - "Et mes heures supp non pay\xE9es, on en parle ? "
   - "Quelle g\xE9n\xE9rosit\xE9 Monsieur. "
   censored: 010100
   delay: 5

@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: b9aa6884926624346a56d852657a84a6, type: 3}
   items:
-  - {fileID: 11400000, guid: acc447a76ec85aa4ab2c4384c52b843a, type: 2}
+  - {fileID: 11400000, guid: 63e2c3a242ee26b45972bbc5833456aa, type: 2}
+  - {fileID: 11400000, guid: 63e2c3a242ee26b45972bbc5833456aa, type: 2}
+  - {fileID: 11400000, guid: 330438012367c77459625b6f2a7422c1, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: b43deb00e3b9b794d9abbde6dace53a3, type: 2}
-  byeLine: Pourvu qu'il leur reste du riz au fond du cadi...
+  - {fileID: 11400000, guid: ab4cb7990f3cd4c4fab55ccb56ebd02b, type: 2}
+  byeLine: "Je ferais passer \xE7a en note de frais. "

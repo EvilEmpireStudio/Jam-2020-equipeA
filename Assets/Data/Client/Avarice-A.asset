@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Avarice-A
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: b9aa6884926624346a56d852657a84a6, type: 3}
-  items:
-  - {fileID: 11400000, guid: 330438012367c77459625b6f2a7422c1, type: 2}
+  items: []
   test: 
   lines:
   - {fileID: 11400000, guid: 3b005791277d8b346823aa3cb0ddaa93, type: 2}
-  byeLine: "La vie est de plus en plus ch\xE8re..."
+  byeLine: 

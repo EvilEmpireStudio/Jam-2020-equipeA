@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
   m_Name: Avarice-E
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: b9aa6884926624346a56d852657a84a6, type: 3}
   items: []
   test: 
-  lines: []
+  lines:
+  - {fileID: 11400000, guid: b43deb00e3b9b794d9abbde6dace53a3, type: 2}
+  - {fileID: 11400000, guid: 3c328a6af05b8d3458c599a5de264584, type: 2}
+  - {fileID: 11400000, guid: 2cfbdf6b00206bc45a8029cc8a351b38, type: 2}
+  - {fileID: 11400000, guid: 1629e646791589d4daea30cae953362a, type: 2}
   byeLine: 

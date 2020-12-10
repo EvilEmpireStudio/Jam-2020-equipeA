@@ -38,6 +38,9 @@ public class GameManager : MonoBehaviour
     public Image clientBye;
     public Text clientByeText;
 
+    //phone
+    public GameObject phoneGO;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,9 +64,13 @@ public class GameManager : MonoBehaviour
 
             if (data.smsDataList.Length > currentSMSIndex && data.smsDataList[currentSMSIndex].EventIndex == currentClientIndex)
             {
+                if(!phoneGO.activeSelf)
+                {
+                    phoneGO.SetActive(true);
+                }
+
                 PhoneManager.instance.data = data.smsDataList[currentSMSIndex++];
                 PhoneManager.instance.state = PhoneManager.State.ReceiveSMS;
-
             }
         }
     }

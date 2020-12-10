@@ -325,7 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7372549}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1923,7 +1923,7 @@ MonoBehaviour:
   clientSpawner: {x: -13, y: -3.3, z: 0}
   clientPrefab: {fileID: 8121187528134706455, guid: 2b287a5c3124900418baff3422b6ee6a,
     type: 3}
-  data: {fileID: 11400000, guid: 22cd86410244ae94baef3e3781a8082a, type: 2}
+  data: {fileID: 11400000, guid: f3fbf1a08288ab743840422de18ef62c, type: 2}
   currentClient: {fileID: 0}
   clientDialogueBubble: {fileID: 2004648693}
   clientDialogueText: {fileID: 527654314}

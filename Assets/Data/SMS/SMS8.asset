@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: SMS8
   m_EditorClassIdentifier: 
-  line: Et j'adore C3PO <3
-  answers:
-  - 'Ah c''est le pire, mais pourquoi pas pour se moquer ! '
-  - "C'est le meilleur, je raterai \xE7a pour rien au monde. "
-  - Team R2D2 forever - mais compte sur moi !
-  EventIndex: 8
+  line: "Ha ha, je vois que je parle \xE0 un expert. "
+  answers: []
+  EventIndex: 25

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: SMS1
   m_EditorClassIdentifier: 
-  line: 
+  line: 06 58 59 57 59
   answers:
   - 'Bonjour, c''est le caissier ! '
   - "On m'a laiss\xE9 ce num\xE9ro au magasin.  "
   - 'Bonnie ? '
-  EventIndex: 3
+  EventIndex: 19

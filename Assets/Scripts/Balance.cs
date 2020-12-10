@@ -41,7 +41,7 @@ public class Balance : MonoBehaviour
             currentScanningTime += Time.fixedDeltaTime;
             if (currentScanningTime > scanTime)
             {
-                collider.GetComponent<Item>().setState(Item.State.ReadyToScan);
+                collider.GetComponent<Item>().setState(Item.State.Scanned);
                 displayText.text = (collider.GetComponent<Item>().data.price + Random.Range(0,5)) + "g";
                 displayText.color = Color.green;
                  

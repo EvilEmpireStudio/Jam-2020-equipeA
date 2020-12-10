@@ -46,7 +46,7 @@ public class Client : MonoBehaviour
         switch (state)
         {
             case State.Dialogue :
-                if (itemsToBuyNb <= 0)
+                if (currentLine >= data.lines.Length && itemsToBuyNb <= 0)
                 {
                     Animator animator = gameObject.GetComponent<Animator>();
                     animator.SetBool("CanLeave", true);

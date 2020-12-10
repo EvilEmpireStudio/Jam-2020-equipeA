@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Bonnie B
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: dbedbfdb5d86065479402898255e873d, type: 3}
-  items: []
+  items:
+  - {fileID: 11400000, guid: 9e3730270c5d8a54ea2d93c18cc97977, type: 2}
+  - {fileID: 11400000, guid: 5721b4d39ebe2d44cb3d980bf15bf1bf, type: 2}
   test: 
   lines:
   - {fileID: 11400000, guid: 43795ae2f1bfc0646970b405e1fe081c, type: 2}

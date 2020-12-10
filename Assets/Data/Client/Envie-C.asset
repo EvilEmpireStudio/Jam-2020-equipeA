@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Envie-C
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: ef0fcfcc92e290445995ca8e52b3da7c, type: 3}
-  items: []
+  items:
+  - {fileID: 11400000, guid: 99d0073b96f41074f85e07e1f2a816c7, type: 2}
   test: 
   lines:
   - {fileID: 11400000, guid: 816538af145f76e4c8d24d0e868ae10b, type: 2}

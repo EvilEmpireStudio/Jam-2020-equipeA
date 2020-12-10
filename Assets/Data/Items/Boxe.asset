@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40cc65988597dae47b5dff72e3e1b785, type: 3}
-  m_Name: Cornflakes
+  m_Name: Boxe
   m_EditorClassIdentifier: 
-  price: 2
+  price: 27.5
   type: 1
-  sprite: {fileID: 21300000, guid: b843432060de32640bdffca02e203587, type: 3}
+  sprite: {fileID: 21300000, guid: abd4a1738db3e6a429d9f71e3b1ced72, type: 3}

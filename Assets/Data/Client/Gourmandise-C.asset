@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Gourmandise-C
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: fd2f35391118293429388f131eac2bc7, type: 3}
-  items: []
+  items:
+  - {fileID: 11400000, guid: 496266d128c19c148a74ca9f5ea7bc10, type: 2}
   test: 
   lines:
   - {fileID: 11400000, guid: 22f7610a66ad0604c84f837cc50af1a2, type: 2}

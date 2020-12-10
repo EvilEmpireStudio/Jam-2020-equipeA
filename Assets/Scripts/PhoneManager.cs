@@ -23,12 +23,14 @@ public class PhoneManager : MonoBehaviour
     public GameObject phoneNotif;
     public GameObject phoneViewGO;
     public GameObject phoneExitButton;
+    public GameObject mainSMSGO;
     public Text mainSMS;
 
     //answers
     public GameObject[] options;
     public Text[] optionText;
 
+    public GameObject answerGO;
     public Text answer;
     public int answerId = -1;
 
@@ -55,6 +57,7 @@ public class PhoneManager : MonoBehaviour
                 //load answers
                 // switch to SMSLoaded
                 notif = true;
+                mainSMSGO.SetActive(true);
                 mainSMS.text = data.line;
 
                 for (int i = 0; i < data.answers.Length; i++)
@@ -64,6 +67,7 @@ public class PhoneManager : MonoBehaviour
                 }
 
                 answer.gameObject.SetActive(false);
+                answerGO.SetActive(false);
 
                 state = State.SMSLoaded;
 
@@ -75,6 +79,7 @@ public class PhoneManager : MonoBehaviour
                 if (answerId >= 0)
                 {
                     answer.text = data.answers[answerId];
+                    answerGO.SetActive(true);
                     answer.gameObject.SetActive(true);
 
                     for (int i = 0; i < data.answers.Length; i++)

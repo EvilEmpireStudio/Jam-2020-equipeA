@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
+  m_Name: Bonnie 4-3
+  m_EditorClassIdentifier: 
+  line: "Mais on doit tous gagner notre vie. Tu peux me donner la caisse s'il te
+    pla\xEEt ?"
+  answers:
+  - "Je me disais bien que c'\xE9tait trop beau. Tiens. "
+  - "Ca, c'est la fin de ma carri\xE8re dans le milieu du supermarch\xE9. Tiens."
+  - "Vu ma carrure, tu sais le pistolet c'\xE9tait pas necessaire. Tiens. "
+  censored: 
+  delay: 5

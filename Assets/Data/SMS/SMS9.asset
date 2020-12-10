@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
-  m_Name: SMS1
+  m_Name: SMS9
   m_EditorClassIdentifier: 
-  line: 
+  line: Et j'adore C3PO <3
   answers:
-  - 'Bonjour, c''est le caissier ! '
-  - "On m'a laiss\xE9 ce num\xE9ro au magasin.  "
-  - 'Bonnie ? '
-  EventIndex: 3
+  - 'Ah c''est le pire, mais pourquoi pas pour se moquer ! '
+  - "C'est le meilleur, je raterai \xE7a pour rien au monde. "
+  - Team R2D2 forever - mais compte sur moi !
+  EventIndex: 8

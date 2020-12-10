@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
+  m_Name: Bonnie 4-2
+  m_EditorClassIdentifier: 
+  line: "Je suis sinc\xE8rement navr\xE9, je t'aime bien tu sais mais..."
+  answers:
+  - "Mais... tu as rencontr\xE9 quelqu'un d'autre ? "
+  - 'Mais... tes parents sont contre les unions mixes ? '
+  - "Mais... c'est mon format le probl\xE8me ? "
+  censored: 
+  delay: 5

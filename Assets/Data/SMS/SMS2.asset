@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: SMS2
   m_EditorClassIdentifier: 
-  line: "Et ce soir \xE7a te tente de mater Terminator?"
-  answers:
-  - "t\u2019en as pas marre de mater des films de robot?"
-  - "nope, ce soir je joue \xE0 cyberpunk nul, encore, j\u2019ai pas collect\xE9
-    tous les godes du cul"
-  EventIndex: 3
+  line: "Coucou ! j'avais peur que tu m'\xE9crives pas"
+  answers: []
+  EventIndex: 6

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
+  m_Name: Bonnie 4
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: dbedbfdb5d86065479402898255e873d, type: 3}
+  items: []
+  test: 
+  lines:
+  - {fileID: 11400000, guid: 3a8a82011e728284c8781cb81e7ee349, type: 2}
+  - {fileID: 11400000, guid: 8da562c77ef8d6946b355a30919f030b, type: 2}
+  - {fileID: 11400000, guid: dd1b86e09e7645946a6f2cc88ebd6b57, type: 2}
+  byeLine: "Merci, t'es un amour. Je penserais \xE0 toi quand je verrais Star Wars
+    ! "

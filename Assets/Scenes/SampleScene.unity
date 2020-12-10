@@ -522,6 +522,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1901163275}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &262525621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3364550860515316362, guid: 2509b750480148b4687994b0d6cc44da,
+    type: 3}
+  m_PrefabInstance: {fileID: 761097666}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &283844017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,6 +1108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phone
       objectReference: {fileID: 0}
+    - target: {fileID: 3364550860515316362, guid: 2509b750480148b4687994b0d6cc44da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3364550860515316364, guid: 2509b750480148b4687994b0d6cc44da,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1414,7 +1425,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -46, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &955696518
 MonoBehaviour:
@@ -1762,6 +1773,7 @@ GameObject:
   - component: {fileID: 1347218915}
   - component: {fileID: 1347218914}
   - component: {fileID: 1347218913}
+  - component: {fileID: 1347218916}
   m_Layer: 5
   m_Name: Answer0
   m_TagString: Untagged
@@ -1786,9 +1798,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.835, y: 4.489}
+  m_AnchoredPosition: {x: 2.9518135, y: 3.9330928}
   m_SizeDelta: {x: 576.6373, y: 111.18141}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1347218913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1880,6 +1892,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347218911}
   m_CullTransparentMesh: 0
+--- !u!111 &1347218916
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347218911}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 728bb1bf88b16694f9ad547da30fd41b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 728bb1bf88b16694f9ad547da30fd41b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!224 &1397301997 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3364550860515316365, guid: 2509b750480148b4687994b0d6cc44da,
@@ -1941,6 +1969,7 @@ MonoBehaviour:
   - {fileID: 1657398054}
   clientBye: {fileID: 587410227}
   clientByeText: {fileID: 527799404}
+  phoneGO: {fileID: 262525621}
 --- !u!4 &1428992352
 Transform:
   m_ObjectHideFlags: 0
@@ -1999,6 +2028,7 @@ GameObject:
   - component: {fileID: 1473769104}
   - component: {fileID: 1473769103}
   - component: {fileID: 1473769102}
+  - component: {fileID: 1473769105}
   m_Layer: 5
   m_Name: Answer1
   m_TagString: Untagged
@@ -2023,9 +2053,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.835, y: 3.19}
+  m_AnchoredPosition: {x: 2.9518135, y: 2.634093}
   m_SizeDelta: {x: 576.6373, y: 111.18141}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1473769102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2117,6 +2147,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473769100}
   m_CullTransparentMesh: 0
+--- !u!111 &1473769105
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473769100}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 728bb1bf88b16694f9ad547da30fd41b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 728bb1bf88b16694f9ad547da30fd41b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1497877938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,7 +2198,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -46, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497877940
 MonoBehaviour:
@@ -2311,7 +2357,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -46, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563984491
 MonoBehaviour:
@@ -3375,6 +3421,7 @@ GameObject:
   - component: {fileID: 2146380560}
   - component: {fileID: 2146380559}
   - component: {fileID: 2146380558}
+  - component: {fileID: 2146380561}
   m_Layer: 5
   m_Name: Answer2
   m_TagString: Untagged
@@ -3399,9 +3446,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.835, y: 1.89}
+  m_AnchoredPosition: {x: 2.9518135, y: 1.334093}
   m_SizeDelta: {x: 576.6373, y: 111.18141}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &2146380558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3493,3 +3540,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146380556}
   m_CullTransparentMesh: 0
+--- !u!111 &2146380561
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146380556}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 728bb1bf88b16694f9ad547da30fd41b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 728bb1bf88b16694f9ad547da30fd41b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0

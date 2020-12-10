@@ -122,6 +122,7 @@ public class Client : MonoBehaviour
                         foreach (string answer in data.lines[currentLine].answers)
                         {
                             GameManager.instance.answerButtons[i].gameObject.SetActive(true);
+                            GameManager.instance.answerButtons[i].GetComponent<Animation>().Play();
                             GameManager.instance.answerTexts[i].text = answer;
                             i++;
                         }

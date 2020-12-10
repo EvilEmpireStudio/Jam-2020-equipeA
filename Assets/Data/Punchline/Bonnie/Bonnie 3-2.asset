@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Bonnie 3-2
   m_EditorClassIdentifier: 
-  line: "Nonmaisjemedisquec'estplussympadediresonpr\xE9nomcommejepeuxlireletiensurtonbadgealors..."
+  line: "Nonmaisjemedisquec'est plussympadediresonpr\xE9nom commejepeuxlireletien
+    surtonbadgealors..."
   answers:
   - Merci c'est sympa alors, euh... Bonnie.
   - "Ca n'a pas du etre facile dans la cour de r\xE9cr\xE9e."

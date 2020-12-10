@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: "Je me demandais... O\xF9 se cache votre local poubelle ? "
   answers:
-  - "Derri\xE8re le grillage vert."
-  - "Vous \xEAtes bizarre, vous savez ?"
+  - "Derri\xE8re le grillage vert, juste \xE0 c\xF4t\xE9 des deux rottweilers.  "
   - "S\xE9curit\xE9... ?"
   censored: 000100
   delay: 5

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GameData
   m_EditorClassIdentifier: 
   clientDataList:
-  - {fileID: 11400000, guid: 2eeeeb79fcb56294aae6c9d6981889ac, type: 2}
+  - {fileID: 11400000, guid: 3fde58235435a944ca796fd2d82af60c, type: 2}
   smsDataList: []

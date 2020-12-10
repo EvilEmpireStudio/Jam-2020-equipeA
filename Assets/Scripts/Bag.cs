@@ -6,6 +6,7 @@ public class Bag : MonoBehaviour
 {
     private GameObject currentItem;
     public float scanTime = 1f;
+    public Animation bagAnim;
 
     private void Update()
     {
@@ -16,6 +17,7 @@ public class Bag : MonoBehaviour
             client.ItemBought();
             GameObject.Destroy(currentItem);
             currentItem = null;
+            bagAnim.Play();
         }
     }
 

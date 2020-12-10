@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Bobby
+  m_Name: Colere-B
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: dbedbfdb5d86065479402898255e873d, type: 3}
+  sprite: {fileID: 21300000, guid: 6f4d41e3e99337c4fac2f4caf5d1be78, type: 3}
   items:
   - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
-  - {fileID: 11400000, guid: c874b782732f0964092b8cdc59e0a86b, type: 2}
   - {fileID: 11400000, guid: b19fe771735299044a1a70c949e588fc, type: 2}
+  - {fileID: 11400000, guid: c874b782732f0964092b8cdc59e0a86b, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: f5c58f376b3d1904dbd40f7f9e565821, type: 2}
-  - {fileID: 11400000, guid: 90aed1686ceebba42ad286d4de3de10d, type: 2}
-  - {fileID: 11400000, guid: f9a5275537a3b6843898a1db7dd211e6, type: 2}
-  - {fileID: 11400000, guid: c42756dbcc64df840b5bbc29511c1e12, type: 2}
-  byeLine: "aller salut l\u2019ami"
+  - {fileID: 11400000, guid: df3964baab1f97c409ed9e732505855b, type: 2}
+  - {fileID: 11400000, guid: db975a7d2bc229c43bd378dd60d9ac67, type: 2}
+  byeLine: "Je n'en resterai pas l\xE0 ! C'est honteux !"

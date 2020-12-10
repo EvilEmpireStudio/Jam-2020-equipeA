@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
+  m_Name: Colere-C
+  m_EditorClassIdentifier: 
+  line: "Je n'ai jamais vu un supermarch\xE9 aussi mal nettoy\xE9 ! "
+  answers:
+  - 'Merci pour votre retour ! '
+  - "Et moi une cliente aussi b\xEAte..."
+  - "Tenez, une serpill\xE8re."
+  censored: 000100
+  delay: 5

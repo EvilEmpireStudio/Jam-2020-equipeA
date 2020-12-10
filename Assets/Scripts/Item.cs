@@ -17,10 +17,10 @@ public class Item : MonoBehaviour
 
     void Start()
     {
-        if (data != null)
+        /*if (data != null)
         {
             applyData();
-        }
+        }*/
     }
 
     public Client GetClient()
@@ -45,8 +45,7 @@ public class Item : MonoBehaviour
                 break;
         }
 
-        BoxCollider2D collider = gameObject.GetComponent<BoxCollider2D>();
-        collider.size = new Vector2(data.sprite.rect.width/data.sprite.pixelsPerUnit, data.sprite.rect.height / data.sprite.pixelsPerUnit);
+        gameObject.AddComponent<BoxCollider2D>();
 
         gameObject.name = data.sprite.name;
     }

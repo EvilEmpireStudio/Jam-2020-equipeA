@@ -171,20 +171,39 @@ public class Client : MonoBehaviour
         gameObject.name = data.sprite.name;
     }
 
+    class MyComparer : IComparer<GameObject>
+    {
+        public int Compare(GameObject x, GameObject y)
+        {
+            return (int) ((x.transform.position.y - y.transform.position.y) * 100f);
+        }
+    }
+
     public void spawnClientItems()
     {
+        List<GameObject> items = new List<GameObject>();
         foreach (ItemData itemData in data.items)
         {
             Vector3 spawnPos = generateItemSpawnPos();
             //float yOffset = itemData.sprite.rect.height / (2 * itemData.sprite.pixelsPerUnit);
             //spawnPos.Set(spawnPos.x, spawnPos.y + yOffset, spawnPos.z);
             GameObject itemGO = GameObject.Instantiate(GameManager.instance.itemPrefab, spawnPos, Quaternion.identity);
+            items.Add(itemGO);
             itemGO.transform.SetParent(GameManager.instance.itemSpawner.transform);
             Item item = itemGO.GetComponent<Item>();
             item.data = itemData;
             item.client = this;
             item.applyData();
         }
+
+        MyComparer c = new MyComparer();
+        items.Sort(c);
+        int cpt = 100;
+        foreach (GameObject go in items)
+        {
+            go.GetComponent<SpriteRenderer>().sortingOrder = cpt--;
+        }
+
         GameManager.instance.itemSpawner.GetComponent<Animation>().Play();
         itemsToBuyNb = data.items.Length;
     }

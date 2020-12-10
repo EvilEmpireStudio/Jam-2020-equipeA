@@ -91,6 +91,7 @@ public class Client : MonoBehaviour
                     //put in InProgress state;
                     GameManager.instance.clientDialogueText.text = data.lines[currentLine].line;
                     GameManager.instance.clientDialogueBubble.gameObject.SetActive(true);
+                    GameManager.instance.clientDialogueBubble.GetComponent<Animation>().Play();
                     currentLineState = LineState.InProgress;
                     break;
                 case LineState.InProgress:

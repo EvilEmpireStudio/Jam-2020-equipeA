@@ -12,10 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-C
   m_EditorClassIdentifier: 
-  line: "J'ai retrouv\xE9 mes coupons de l'ann\xE9e derni\xE8re !"
-  answers:
-  - "F\xE9licitations !"
-  - "Ils sont p\xE9rim\xE9s, Monsieur."
-  - J'ai connu des pauvres moins radins...
-  censored: 000001
+  line: "N'oubliez pas la devise de la maison: un client encaiss\xE9 est un client
+    satisfait! "
+  answers: []
+  censored: 000100
   delay: 5

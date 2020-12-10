@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Joan's progression Test 1
   m_EditorClassIdentifier: 
   clientDataList:
-  - {fileID: 11400000, guid: 17989d937d0c80e4ab2cd168b7f9d1fb, type: 2}
+  - {fileID: 11400000, guid: 681c5bdcd9229114fb98f113c854849d, type: 2}
   - {fileID: 11400000, guid: 1b5361db40da3d740922e8138cc38580, type: 2}
   - {fileID: 11400000, guid: 1ef7e641d70a5494285b81ffd0869f9f, type: 2}
   - {fileID: 11400000, guid: c0daa08b9c069b143925505d19733b79, type: 2}
   - {fileID: 11400000, guid: 2dc0838d47f458f42be25e9655d2c708, type: 2}
-  - {fileID: 11400000, guid: 681c5bdcd9229114fb98f113c854849d, type: 2}
+  - {fileID: 11400000, guid: 17989d937d0c80e4ab2cd168b7f9d1fb, type: 2}
   - {fileID: 11400000, guid: 6706ea4ef6c374048afd97882419c978, type: 2}
   - {fileID: 11400000, guid: 2eeeeb79fcb56294aae6c9d6981889ac, type: 2}
   - {fileID: 11400000, guid: 8945b5707b198f542899f32b98d174c9, type: 2}

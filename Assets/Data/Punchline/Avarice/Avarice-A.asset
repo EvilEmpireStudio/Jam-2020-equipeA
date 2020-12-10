@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-A
   m_EditorClassIdentifier: 
-  line: "Est-ce que vous donnez vos produits p\xE9rim\xE9s ?"
+  line: "Mon meilleur employ\xE9 ! "
   answers:
-  - "Non, je suis d\xE9sol\xE9 Monsieur."
-  - "Non, et certainement pas \xE0 vous."
-  - 'Seulement aux chiens... Ouaf Ouaf ? '
+  - Bonjour Boss...
+  - 'Vous etes resplendissant Boss. '
+  - 'Laissez-moi tranquille... '
   censored: 000001
   delay: 5

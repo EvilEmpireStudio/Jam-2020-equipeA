@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-D
   m_EditorClassIdentifier: 
-  line: Merci d'acceuillir le Secours Populaire dans votre magasin !
+  line: "Nous avons invit\xE9 le Secours Populaire ! L'occasion de faire un geste
+    pour les plus d\xE9munis. "
   answers:
-  - Avec plaisir !
-  - "Si \xE7a ne tenait qu'a moi..."
-  - C'est pour l'image.
-  censored: 
+  - "Vous fa\xEEtes \xE7a juste pour l'image. "
+  - 'Vous voulez juste inciter les clients a acheter davantage. '
+  - "Quelle g\xE9n\xE9rosit\xE9 Monsieur. "
+  censored: 010100
   delay: 5

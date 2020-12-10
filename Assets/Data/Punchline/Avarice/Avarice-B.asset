@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-B
   m_EditorClassIdentifier: 
-  line: "Je me demandais... O\xF9 se cache votre local poubelle ? "
-  answers:
-  - "Derri\xE8re le grillage vert, juste \xE0 c\xF4t\xE9 des deux rottweilers.  "
-  - "S\xE9curit\xE9... ?"
-  censored: 000100
+  line: "Rappel: les articles oubli\xE9s sont remis en rayon. "
+  answers: []
+  censored: 
   delay: 5

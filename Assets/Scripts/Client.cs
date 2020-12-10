@@ -179,11 +179,13 @@ public class Client : MonoBehaviour
             //float yOffset = itemData.sprite.rect.height / (2 * itemData.sprite.pixelsPerUnit);
             //spawnPos.Set(spawnPos.x, spawnPos.y + yOffset, spawnPos.z);
             GameObject itemGO = GameObject.Instantiate(GameManager.instance.itemPrefab, spawnPos, Quaternion.identity);
+            itemGO.transform.SetParent(GameManager.instance.itemSpawner.transform);
             Item item = itemGO.GetComponent<Item>();
             item.data = itemData;
             item.client = this;
             item.applyData();
         }
+        GameManager.instance.itemSpawner.GetComponent<Animation>().Play();
         itemsToBuyNb = data.items.Length;
     }
 

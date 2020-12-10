@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Paresse-A 2
+  m_Name: Envie-A
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b4ad82474e4856940ac80dc56884a868, type: 3}
-  items:
-  - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
-  - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
-  - {fileID: 11400000, guid: c874b782732f0964092b8cdc59e0a86b, type: 2}
+  sprite: {fileID: 21300000, guid: ef0fcfcc92e290445995ca8e52b3da7c, type: 3}
+  items: []
   test: 
   lines:
-  - {fileID: 0}
-  byeLine: Pfff...
+  - {fileID: 11400000, guid: 80b0dba80c4769949a463fd6645bb370, type: 2}
+  byeLine: "Je me demande si c'est une bonne situation, \xE7a... ?"

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Paresse-A 3
+  m_Name: Envie-C
   m_EditorClassIdentifier: 
-  line: 
+  line: Pourquoi je choisis toujours la file la plus lente...
   answers:
-  - 
-  - 
-  - 
-  censored: 000000
+  - J'ai toujours les pires clients.
+  - Vous avez entendu parler du Karma ?
+  - Heureusement, personne vous attend.
+  censored: 010000
   delay: 5

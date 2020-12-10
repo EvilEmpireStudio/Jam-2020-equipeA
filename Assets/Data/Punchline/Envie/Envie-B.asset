@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Paresse-B-2
+  m_Name: Envie-B
   m_EditorClassIdentifier: 
-  line: C'est dire si ma vie est palpitante...
+  line: "Mon voisin s'est achet\xE9 une nouvelle voiture."
   answers:
-  - Moi aussi je t'aime bien, tu sais ?
-  - "On \xE9change quand tu veux !"
-  - "Pique les anti-d\xE9presseurs de ta m\xE8re."
-  censored: 000001
+  - Tant mieux pour lui !
+  - "Je pr\xE9f\xE8re les motos."
+  - "Les oeufs sont au fond \xE0 droite."
+  censored: 000000
   delay: 5

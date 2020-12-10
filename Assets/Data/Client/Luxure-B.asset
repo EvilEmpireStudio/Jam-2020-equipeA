@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Paresse-A
+  m_Name: Luxure-A 1
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b4ad82474e4856940ac80dc56884a868, type: 3}
+  sprite: {fileID: 21300000, guid: e40653c999d802343a344d789c118c3a, type: 3}
   items:
   - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
   - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
-  - {fileID: 11400000, guid: c874b782732f0964092b8cdc59e0a86b, type: 2}
+  - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
+  - {fileID: 11400000, guid: 0d2547d58d0706244940da74a55532ee, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: 9341b397e33696b4bb3ea52859034c32, type: 2}
-  byeLine: Pfff...
+  - {fileID: 0}
+  byeLine: 

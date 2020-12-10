@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Paresse-B-2
+  m_Name: Envie-A
   m_EditorClassIdentifier: 
-  line: C'est dire si ma vie est palpitante...
+  line: "Vous avez de la chance de faire ce boulot ! Pas besoin de r\xE9fl\xE9chir."
   answers:
-  - Moi aussi je t'aime bien, tu sais ?
-  - "On \xE9change quand tu veux !"
-  - "Pique les anti-d\xE9presseurs de ta m\xE8re."
-  censored: 000001
+  - Ah, et bien... Merci.
+  - "Le job de mes r\xEAves !"
+  - Vous avez un CV ?
+  censored: 000000
   delay: 5

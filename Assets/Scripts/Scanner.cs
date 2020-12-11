@@ -14,6 +14,10 @@ public class Scanner : MonoBehaviour
 
     static public Scanner instance;
 
+    public Animation overlay;
+
+    public bool overlayPlayed = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +55,12 @@ public class Scanner : MonoBehaviour
 
                 displayPrice.text = "" + collider.GetComponent<Item>().data.price + "€";
                 displayPrice.color = Color.green;
+
+                if (!overlayPlayed)
+                {
+                    overlayPlayed = true;
+                    overlay.Play();
+                }
             }
         }
     }
@@ -64,5 +74,6 @@ public class Scanner : MonoBehaviour
         displayName.color = Color.red;
         displayPrice.text = "-";
         displayPrice.color = Color.red;
+        overlayPlayed = false;
     }
 }

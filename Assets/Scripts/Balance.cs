@@ -11,6 +11,10 @@ public class Balance : MonoBehaviour
 
     public Text displayText;
 
+    public Animation overlayBalance;
+    public Animation overlayScanner;
+    public bool overlayPlayed = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +29,7 @@ public class Balance : MonoBehaviour
             if (currentItem == null && currentItem != collider.gameObject && item.state == Item.State.ReadyToWeight)
             {
                 currentItem = collider.gameObject;
+                overlayPlayed = false;
             }
             else
             {
@@ -51,6 +56,13 @@ public class Balance : MonoBehaviour
                 Scanner.instance.displayPrice.text = "" + collider.GetComponent<Item>().data.price + "€";
                 Scanner.instance.displayPrice.color = Color.green;
 
+
+                if (!overlayPlayed)
+                {
+                    overlayPlayed = true;
+                    overlayBalance.Play();
+                    overlayScanner.Play();
+                }
             }
             else
             {
@@ -70,5 +82,6 @@ public class Balance : MonoBehaviour
         displayText.color = Color.red;
         currentScanningTime = 0f;
         currentItem = null;
+        overlayPlayed = false;
     }
 }

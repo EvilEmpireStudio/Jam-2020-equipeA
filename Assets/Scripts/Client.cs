@@ -52,6 +52,7 @@ public class Client : MonoBehaviour
                     animator.SetBool("CanLeave", true);
                 }
 
+
                 UpdateDialogue();
                 break;
             case State.Leaving:

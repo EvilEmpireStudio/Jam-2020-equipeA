@@ -22,3 +22,4 @@ MonoBehaviour:
   byeLine: "Merci, t'es un amour. Je penserais \xE0 toi quand je verrais Star Wars
     ! "
   swap: {fileID: 21300000, guid: b4b90bdd34d4e3041afa4ffe0aa24cf6, type: 3}
+  stay: 0

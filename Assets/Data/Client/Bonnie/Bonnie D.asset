@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: dbedbfdb5d86065479402898255e873d, type: 3}
   items:
-  - {fileID: 11400000, guid: 496266d128c19c148a74ca9f5ea7bc10, type: 2}
-  - {fileID: 11400000, guid: bcc0c027f2c2be846bd45ba5e7f83fd2, type: 2}
-  - {fileID: 11400000, guid: f4259127becee6946a2d16f535b6fce3, type: 2}
+  - {fileID: 11400000, guid: 9434bae06a9c8e14bb48b1513d8d0190, type: 2}
+  - {fileID: 11400000, guid: d0580b78d9661cb4ab036021ce093f8e, type: 2}
+  - {fileID: 11400000, guid: 5721b4d39ebe2d44cb3d980bf15bf1bf, type: 2}
   test: 
   lines:
   - {fileID: 11400000, guid: 104b5505492478e4bad0b75687cf722f, type: 2}
   byeLine: "Merci ! Je t'\xE9cris vite. "
+  swap: {fileID: 0}
+  stay: 0

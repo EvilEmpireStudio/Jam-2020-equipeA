@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Orgueil-C 1
   m_EditorClassIdentifier: 
-  line: "Cool... cool cool. Allez, je me teins les cheveux \xE0 1000 abonn\xE9s ! "
+  line: "Cool... cool cool. Allez, je me teins les cheveux \xE0 1000 abonn\xE9s !"
   answers: []
   censored: 000100
   answerReaction: 
   delay: 5
+  answerSwapSprite: 0

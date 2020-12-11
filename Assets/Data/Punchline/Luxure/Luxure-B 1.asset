@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Luxure-B 1
   m_EditorClassIdentifier: 
-  line: 'Vous devriez venir un de ces soirs ! '
+  line: Vous devriez venir un de ces soirs !
   answers: []
   censored: 000000
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

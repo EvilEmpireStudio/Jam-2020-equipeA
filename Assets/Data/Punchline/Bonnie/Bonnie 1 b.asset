@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Bonnie 1 b
   m_EditorClassIdentifier: 
-  line: 'C''est quoi votre signe astrologique ? '
+  line: C'est quoi votre signe astrologique ?
   answers:
   - "Je suis d\xE9sol\xE9, je le connais pas. "
   - "Sagittaire ascendant B\xE9lier, avec une l\xE9g\xE8re influence de V\xE9nus
-    les jours de pleine lune. "
-  - "Ca d\xE9pend des moments - pl\xFBtot Balance ces temps-ci. "
+    les jours de pleine lune."
+  - "Ca d\xE9pend des moments : pl\xFBtot Balance ces temps-ci."
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

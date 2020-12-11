@@ -20,6 +20,7 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: 104b5505492478e4bad0b75687cf722f, type: 2}
-  byeLine: "Merci ! Je t'\xE9cris vite. "
+  byeLine: "Merci ! Je t'\xE9cris vite."
   swap: {fileID: 0}
   stay: 0
+  invisible: 0

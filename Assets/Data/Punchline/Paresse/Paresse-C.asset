@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: "Salut ! Toujours pas fatigu\xE9 de ce taf de naze ?"
   answers:
-  - "J'ai pas tes parents pour payer ma moiti\xE9 du loyer moi ! "
+  - J'ai pas tes parents pour payer mon loyer, moi !
   - "Arr\xEAte ! Je fais de belles rencontres quand t'es pas l\xE0."
-  - 'SAUVE MOI DE LAAAAAAAAAAAAAA j''en peux plus... '
+  - SAUVE MOI DE LAAAAAAAAA j'en peux plus...
   censored: 000000
   answerReaction: 000000000000000001000000
   delay: 5
+  answerSwapSprite: 0

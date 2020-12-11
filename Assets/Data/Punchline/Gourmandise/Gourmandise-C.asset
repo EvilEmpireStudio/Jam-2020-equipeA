@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: Vous avez pas vu ma maman ?
   answers:
-  - 'Oui, avec un autre monsieur que ton papa. '
+  - Oui, avec un autre Monsieur que ton papa.
   - "J'ai l'air d'une cam\xE9ra de s\xE9curit\xE9 ?"
-  - "Non, mais demande \xE0 la caisse centrale de faire un appel... on va vite la
+  - "Non, mais demande \xE0 la caisse centrale de faire un appel... On va vite la
     retrouver."
   censored: 010100
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

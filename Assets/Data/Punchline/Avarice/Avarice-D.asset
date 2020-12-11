@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-D
   m_EditorClassIdentifier: 
-  line: "Qu'est ce que vous fa\xEEtes encore ouvert ? Vous savez qu'on ne paye pas
-    les heures suppl\xE9mentaires ? "
+  line: "Qu'est-ce que vous fa\xEEtes encore ouvert ? Vous savez qu'on ne paye pas
+    les heures suppl\xE9mentaires ?"
   answers:
-  - "Ah, euh, oui pas d'inqu\xE9tude, je finis un truc et je ferme ! "
-  - 'Juste une erreur de caisse, j''en ai pas pour longtemps ! '
+  - "Ah, euh, oui pas d'inqui\xE9tude, je finis un truc et je ferme !"
+  - Juste une erreur de caisse, j'en ai pas pour longtemps !
   censored: 
   answerReaction: 
   delay: 5

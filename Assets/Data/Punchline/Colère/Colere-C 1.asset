@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Colere-C 1
   m_EditorClassIdentifier: 
   line: "Croyez-bien que je parlerai de votre politique commerciale honteuse \xE0
-    mes amies ! Au journal ! "
+    mes amies ! Au journal !"
   answers: []
   censored: 010001
+  answerReaction: 
   delay: 2
+  answerSwapSprite: 0

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Bonnie 2
   m_EditorClassIdentifier: 
-  line: "Bonjour ! On vous a d\xE9j\xE0 dit que vous etiez mignon ? "
+  line: "Bonjour ! On vous a d\xE9j\xE0 dit que vous \xEAtiez mignon ?"
   answers:
-  - "Une fois, mais c'\xE9tait un gage. "
-  - "Ma maman, \xE7a compte ? "
-  - 'Arretez, vous me faites bugguez :) ! '
+  - "Une fois, mais c'\xE9tait un gage."
+  - "Ma maman, \xE7a compte ?"
+  - "Arr\xEAtez, vous me faites bugguer :)"
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

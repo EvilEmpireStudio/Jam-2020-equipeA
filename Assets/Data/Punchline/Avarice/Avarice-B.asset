@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-B
   m_EditorClassIdentifier: 
-  line: "Rappel: les articles oubli\xE9s par les clients sont remis en rayon. "
+  line: "Rappel : les articles oubli\xE9s par les clients sont remis en rayon."
   answers: []
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

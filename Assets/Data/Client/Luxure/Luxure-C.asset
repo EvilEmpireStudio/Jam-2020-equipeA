@@ -20,4 +20,7 @@ MonoBehaviour:
   lines:
   - {fileID: 11400000, guid: 6a45bf881c8be504491fbad15c47f84e, type: 2}
   - {fileID: 11400000, guid: a3e3f385ec820b64c8d07117b10133a0, type: 2}
-  byeLine: 'Allez Ginette, faut pas se laisser aller ! '
+  byeLine: Allez Ginette, faut pas se laisser aller !
+  swap: {fileID: 0}
+  stay: 0
+  invisible: 0

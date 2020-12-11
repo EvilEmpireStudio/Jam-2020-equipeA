@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Colere-B 1
   m_EditorClassIdentifier: 
-  line: "Et baissez d'un ton ! Pas la peine d'\xEAtre aggressif. "
+  line: "Et baissez d'un ton ! Pas la peine d'\xEAtre aggressif."
   answers: []
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

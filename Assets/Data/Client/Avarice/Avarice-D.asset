@@ -20,3 +20,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9f6ce6157579125468fe754e29b3f7c6, type: 2}
   byeLine: J'ai pas l'habitude de faire des heures supp gratis MOI...
   swap: {fileID: 0}
+  stay: 0
+  invisible: 0

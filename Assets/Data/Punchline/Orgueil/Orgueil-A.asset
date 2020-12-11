@@ -15,7 +15,7 @@ MonoBehaviour:
   line: Yo ! Bien ou bien ?
   answers:
   - Bien Monsieur.  Et vous ?
-  - 'On fait aller ! '
+  - On fait aller !
   - Moins bien qu'hier mais bien mieux que demain !
   censored: 000001
   answerReaction: 

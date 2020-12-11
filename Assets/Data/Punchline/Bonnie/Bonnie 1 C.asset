@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bonnie 1 C
   m_EditorClassIdentifier: 
   line: "Moi c'est B\xE9lier ! J'y crois pas mais j'adore lire mon horoscope et celui
-    des autres. "
+    des autres."
   answers: []
   censored: 
   answerReaction: 

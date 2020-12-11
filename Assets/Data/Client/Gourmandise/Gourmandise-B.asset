@@ -18,4 +18,7 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: da7335886f1f1fc49a0d8764db352a63, type: 2}
-  byeLine: Mamaaaaaaaan ! Le monsieur veut me montrer son fourgon...
+  byeLine: Mamaaaaaaaan ! Le Monsieur veut me montrer son fourgon...
+  swap: {fileID: 0}
+  stay: 0
+  invisible: 0

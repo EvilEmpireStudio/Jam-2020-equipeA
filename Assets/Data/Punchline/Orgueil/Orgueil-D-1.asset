@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Orgueil-D-1
   m_EditorClassIdentifier: 
   line: "On se d\xE9p\xE8che ! Mes fans m'attendent. Maman avait pas tort, t'es pas
-    un rapide. Tu veux un autographe ? "
+    un rapide. Tu veux un autographe ?"
   answers:
   - "Oui, sur votre ch\xE9quier par exemple !"
   - Avec plaisir, je n'ai plus de combustible.
@@ -21,3 +21,4 @@ MonoBehaviour:
   censored: 010100
   answerReaction: 
   delay: 5
+  answerSwapSprite: 0

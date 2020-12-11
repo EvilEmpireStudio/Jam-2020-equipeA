@@ -20,4 +20,7 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: 082dcd7f5f6c43443bf241e5acc19f6f, type: 2}
-  byeLine: 'Oh, un bonbon par terre ! '
+  byeLine: Oh, un bonbon par terre !
+  swap: {fileID: 0}
+  stay: 0
+  invisible: 0

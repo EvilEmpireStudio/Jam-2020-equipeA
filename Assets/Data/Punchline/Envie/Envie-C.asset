@@ -16,6 +16,8 @@ MonoBehaviour:
   answers:
   - Vous avez entendu parler du Karma ?
   - Heureusement que personne ne vous attends !
-  - "D\xE9sol\xE9 Monsieur ! "
+  - "D\xE9sol\xE9, Monsieur ! "
   censored: 010100
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

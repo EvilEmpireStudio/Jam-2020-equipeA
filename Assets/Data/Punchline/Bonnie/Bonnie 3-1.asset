@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Bonnie 3-1
   m_EditorClassIdentifier: 
-  line: "Bonjour ! J'ai oubli\xE9 de vous dire hier... Moi c'est Bonnie ! "
+  line: "Bonjour ! J'ai oubli\xE9 de vous dire hier... Moi c'est Bonnie !"
   answers: []
   censored: 
   answerReaction: 
   delay: 5
+  answerSwapSprite: 0

@@ -22,4 +22,7 @@ MonoBehaviour:
   lines:
   - {fileID: 11400000, guid: 7cc112036a974344d9545a55da532c87, type: 2}
   - {fileID: 11400000, guid: e2d049e319dfd5b4f9442571d492cbc2, type: 2}
-  byeLine: "Aah, ces jeunes... si beaux mais si b\xEAtes..."
+  byeLine: "Aah, ces jeunes... Si beaux mais si b\xEAtes..."
+  swap: {fileID: 0}
+  stay: 0
+  invisible: 0

@@ -19,4 +19,7 @@ MonoBehaviour:
   lines:
   - {fileID: 11400000, guid: 7d79322275b2d7e47af1e3a21a846054, type: 2}
   - {fileID: 11400000, guid: 5c40647401a707f4097c017a769910f8, type: 2}
-  byeLine: '... sauf s''ils sont beaux. '
+  byeLine: ...Sauf s'ils sont beaux.
+  swap: {fileID: 0}
+  stay: 0
+  invisible: 0

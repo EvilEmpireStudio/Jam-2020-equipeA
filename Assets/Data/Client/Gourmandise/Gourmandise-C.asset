@@ -18,4 +18,7 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: 22f7610a66ad0604c84f837cc50af1a2, type: 2}
-  byeLine: 'Snif... '
+  byeLine: 'Sniiiiiiiiiiiif... '
+  swap: {fileID: 0}
+  stay: 0
+  invisible: 0

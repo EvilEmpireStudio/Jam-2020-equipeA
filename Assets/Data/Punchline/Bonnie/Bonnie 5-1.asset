@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Bonnie 5-1
   m_EditorClassIdentifier: 
-  line: 'Coucou Clyde ! Je vois qu''il y a plus personne dans le magasin. '
+  line: Coucou Clyde ! Je vois qu'il y a plus personne dans le magasin.
   answers:
-  - "T'as pris des popcorns sal\xE9s ou sucr\xE9s ? "
-  - 'Oui, tous les autres sont partis ! ... C''est une proposition ? '
-  - 'T''en as mis du temps ! On va pas etre en retard ? '
+  - "T'as pris des popcorns sal\xE9s ou sucr\xE9s ?"
+  - Oui, tous les autres sont partis ! ...C'est une proposition ?
+  - "T'en as mis du temps ! On va pas \xEAtre en retard ? "
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

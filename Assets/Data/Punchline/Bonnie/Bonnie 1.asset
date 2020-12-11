@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: Bonjour ! Je crois que je vous ai jamais vu avant !
   answers:
-  - 'Euh... Bonjour aussi. '
-  - 'J''adore votre pull. '
+  - Euh... Bonjour aussi.
+  - J'adore votre pull.
   - Ah ? Je travaille ici depuis longtemps pourtant.
   censored: 
   answerReaction: 000000000200000000000000

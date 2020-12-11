@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Orgueil-B 1
   m_EditorClassIdentifier: 
-  line: "Cool... cool cool. On fait une photo pour ma cha\xEEne ? "
+  line: "Cool... cool cool. On fait une photo pour ma cha\xEEne ?"
   answers:
-  - "D\xE9sol\xE9, les photos sont interdits dans le magasin. "
+  - "D\xE9sol\xE9, les photos sont interdites dans le magasin."
   - "D\xE9sol\xE9, je pr\xE9f\xE8re ne pas associer mon image \xE0 des individus
     de votre esp\xE8ce. "
-  - "D\xE9sol\xE9, je suis un peu timide ! "
+  - "D\xE9sol\xE9, je suis un peu timide !"
   censored: 000100
   answerReaction: 
   delay: 5
+  answerSwapSprite: 0

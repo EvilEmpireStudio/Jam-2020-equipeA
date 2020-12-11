@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-A
   m_EditorClassIdentifier: 
-  line: "Mon meilleur employ\xE9 ! "
+  line: "Mon meilleur employ\xE9 !"
   answers:
   - Bonjour Boss...
-  - 'Vous etes resplendissant Boss. '
-  - 'Laissez-moi tranquille... '
+  - "Vous \xEAtes resplendissant Boss. "
+  - Laissez-moi tranquille...
   censored: 000001
   answerReaction: 010000000200000000000000
   delay: 5

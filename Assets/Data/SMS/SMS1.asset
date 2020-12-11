@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: SMS1
   m_EditorClassIdentifier: 
-  line: 'Coucou ! C''est Bonnie ! '
+  line: Coucou ! C'est Bonnie !
   answers:
-  - 'Salut, c''est le caissier ! '
+  - Salut, c'est le caissier !
   - "Vu le nombre de personnes qui m'\xE9crivent... Je m'en serais dout\xE9 !"
-  - Ca roule ma poule ? (je me met au niveau en attendant que tu te rattrapes ^^)
+  - Ca roule, ma poule ? (je me met au niveau en attendant que tu te rattrapes ^^)
   EventIndex: 22
+  lastSMS: 0

@@ -21,5 +21,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b6fa52655f222cf4495aed2335b06a8b, type: 2}
   - {fileID: 11400000, guid: aaf8a614de2ad8442a084c41434600a3, type: 2}
   - {fileID: 11400000, guid: edf3082d4adba0f4ca309736cb2e77df, type: 2}
-  byeLine: 'On se voit demain ! '
+  byeLine: On se voit demain !
   swap: {fileID: 0}
+  stay: 0
+  invisible: 0

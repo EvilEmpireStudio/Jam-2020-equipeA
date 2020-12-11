@@ -21,4 +21,7 @@ MonoBehaviour:
   lines:
   - {fileID: 11400000, guid: 8b73bb5c85b1b2444b463f232196f8ac, type: 2}
   - {fileID: 11400000, guid: 216f0aef6cc1cb242b7caeb2d8b9d5da, type: 2}
-  byeLine: "Appelez-moi si vous voulez conna\xEEtre la recette du bonheur. "
+  byeLine: "Appelez-moi si vous voulez conna\xEEtre la recette du bonheur."
+  swap: {fileID: 0}
+  stay: 0
+  invisible: 0

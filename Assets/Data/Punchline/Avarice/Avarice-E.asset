@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Avarice-E
   m_EditorClassIdentifier: 
-  line: "Vous \xEAtes vir\xE9 Clyde. "
+  line: "Vous \xEAtes vir\xE9, Clyde. "
   answers: []
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

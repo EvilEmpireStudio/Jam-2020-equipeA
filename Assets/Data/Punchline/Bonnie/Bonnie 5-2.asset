@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: "Je suis sinc\xE8rement navr\xE9, je t'aime bien tu sais mais..."
   answers:
-  - "Mais... tu as rencontr\xE9 quelqu'un d'autre ? "
-  - 'Mais... tes parents sont contre les unions mixes ? '
-  - "Mais... c'est mon format le probl\xE8me ? "
+  - "Mais... Tu as rencontr\xE9 quelqu'un d'autre ?"
+  - Mais... Tes parents sont contre les unions mixes ?
+  - "Mais... C'est mon format le probl\xE8me ? "
   censored: 
   answerReaction: 
   delay: 5

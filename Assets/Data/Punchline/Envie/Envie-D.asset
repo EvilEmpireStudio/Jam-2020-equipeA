@@ -16,6 +16,8 @@ MonoBehaviour:
   answers:
   - Ah, et bien... Merci.
   - "Tellement \xE9panouissant !"
-  - 'Vous feriez un parfait caissier. '
+  - Vous feriez un parfait caissier.
   censored: 000101
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

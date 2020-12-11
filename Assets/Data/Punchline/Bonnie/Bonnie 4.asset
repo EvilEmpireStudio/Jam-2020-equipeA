@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Bonnie 4
   m_EditorClassIdentifier: 
-  line: "\"Hello World\" haha! D'accord c'est pas dr\xF4le. Je repasse parce que
-    j'avais oubliais quelques trucs... et aussi de vous demander votre num\xE9ro
-    de tel\xE9phone que je puisse me rattrapper."
+  line: "\"Hello World\" haha ! D'accord c'est pas dr\xF4le... Je repasse parce que
+    j'avais oubli\xE9 quelques trucs... Et aussi de vous demander votre num\xE9ro
+    de t\xE9l\xE9phone que je puisse me rattraper."
   answers:
-  - 'J''ai presque ris... mais je veux bien que tu te rattrapes. '
-  - 'Tant que tu le tag pas dans les toilettes ! '
+  - 'J''ai presque ris... Mais je veux bien que tu te rattrapes. '
+  - Tant que tu le tagges pas dans les toilettes !
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

@@ -15,6 +15,7 @@ MonoBehaviour:
   line: "Ha ha, je vois que je parle \xE0 un expert. Je passe te chercher \xE0 la
     fermeture du magasin ! "
   answers:
-  - "Ca marche - \xE7a ferme \xE0 18h ! "
+  - "Ca marche ^^ \xE7a ferme \xE0 18h ! "
   - 'Oki ! L''horloge tourne encore plus lentement que d''habitude du coup. '
   EventIndex: 28
+  lastSMS: 0

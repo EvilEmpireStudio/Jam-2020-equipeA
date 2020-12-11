@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Envie-B 1
   m_EditorClassIdentifier: 
-  line: 'Et mon voisin fait des travaux d''aggrandissement ! Vous vous rendez compte
-    ? '
+  line: Et mon voisin qui fait des travaux d'aggrandissement ! Vous vous rendez compte
+    ?
   answers:
-  - "Un acte qui rappelle les pires moments du Troisi\xE8me Reich !"
-  - 'Oh vous savez, les travaux prennent toujours du retard. Pas de quoi l''envier
-    ! '
-  - Je peux vous faire un prix sur les alumettes ET sur du combustible !
+  - Un acte qui rappelle les heures les plus sombres...
+  - Oh vous savez, les travaux prennent toujours du retard. Pas de quoi l'envier
+    !
+  - Je peux vous faire un prix sur les allumettes ET sur du combustible !
   censored: 010001
   answerReaction: 
   delay: 5
+  answerSwapSprite: 0

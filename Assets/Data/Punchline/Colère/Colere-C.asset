@@ -15,8 +15,10 @@ MonoBehaviour:
   line: "Je me suis bless\xE9 en cassant vos assiettes ! J'exige un remboursement
     !"
   answers:
-  - "Vous avez pens\xE9 \xE0 la vaisselle en carton ? "
-  - "Le magasin ne rembourse que les articles non-ouverts, je suis d\xE9sol\xE9. "
+  - "Vous avez pens\xE9 \xE0 la vaisselle en carton ?"
+  - "Le magasin ne rembourse que les articles non-ouverts, je suis d\xE9sol\xE9."
   - C'est vous ! Vous que je vois dans mes cauchemars la nuit !
   censored: 010001
+  answerReaction: 
   delay: 2
+  answerSwapSprite: 0

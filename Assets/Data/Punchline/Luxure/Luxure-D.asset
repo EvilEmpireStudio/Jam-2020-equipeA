@@ -15,8 +15,10 @@ MonoBehaviour:
   line: Bonjour mon Apollon !
   answers:
   - "Ah, je vois que vous avez adopt\xE9 un nouveau compagnon !"
-  - "Vous aussi vous \xEAtes envahi de mouches cet \xE9t\xE9 ? "
+  - "Vous aussi vous \xEAtes envahie de mouches cet \xE9t\xE9 ?"
   - "Les pinces \xE0 linges les plus puissantes du magasin ! Avec \xE7a, le linge
-    ne risque rien. "
+    ne risque rien."
   censored: 000000
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

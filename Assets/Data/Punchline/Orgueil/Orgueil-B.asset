@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Orgueil-B
   m_EditorClassIdentifier: 
-  line: Hey ! Pas mal ton look, c'est la classe ces muscles d'acier!
+  line: Hey ! Pas mal ton look, c'est la classe ces muscles d'acier !
   answers:
-  - Merci Monsieur ! Vous aussi...
+  - Merci, Monsieur ! Vous aussi...
   - "Oh, arr\xEAtez, rien n'est naturel !"
-  - Je m'inspire des plus grands ! Shwarzy, Astro, Roy Batty...
+  - Je m'inspire des plus grands ! Schwarzy, Astro, Roy Batty...
   censored: 000000
   answerReaction: 
   delay: 5

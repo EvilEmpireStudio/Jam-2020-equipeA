@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Envie-D 1
   m_EditorClassIdentifier: 
-  line: 'Et vous avez meme le temps de discuter... La veine ! '
+  line: "Et vous avez m\xEAme le temps de discuter... La veine !"
   answers: []
   censored: 000101
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

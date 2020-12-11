@@ -15,8 +15,10 @@ MonoBehaviour:
   line: "Z'ai retrouv\xE9 ma maman !"
   answers:
   - Non. C'est un clone.
-  - "Mouais... \xE0 ta place, je la laisserais pas m'emmener en foret pour \"une
+  - "Mouais... A ta place, je la laisserais pas m'emmener en for\xEAt pour \"une
     promenade\"."
-  - 'Ah, j''ai eu peur ! '
+  - Ah, j'ai eu peur !
   censored: 010100
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

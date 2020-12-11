@@ -15,8 +15,10 @@ MonoBehaviour:
   line: "Mais on doit tous gagner notre vie. Tu peux me donner la caisse s'il te
     pla\xEEt ?"
   answers:
-  - "Je me disais bien que c'\xE9tait trop beau. Tiens. "
+  - "Je me disais bien que c'\xE9tait trop beau. Tiens."
   - "Ca, c'est la fin de ma carri\xE8re dans le milieu du supermarch\xE9. Tiens."
-  - "Vu ma carrure, tu sais le pistolet c'\xE9tait pas necessaire. Tiens. "
+  - "Vu ma carrure, tu sais le pistolet c'\xE9tait pas n\xE9cessaire. Tiens."
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: ...
   answers:
-  - 'Alors on dit toujours pas bonjour ? '
-  - 'Baisse les yeux gamine. '
+  - Alors on dit toujours pas bonjour ?
+  - Baisse les yeux, gamine.
   - "Tr\xE8s classe ton appareil !"
   censored: 000100
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

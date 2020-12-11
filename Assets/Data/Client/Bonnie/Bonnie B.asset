@@ -19,4 +19,7 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: 43795ae2f1bfc0646970b405e1fe081c, type: 2}
-  byeLine: "C'\xE9tait sympa de vous revoir en tout cas ! "
+  byeLine: "C'\xE9tait sympa de vous revoir en tout cas !"
+  swap: {fileID: 0}
+  stay: 0
+  invisible: 0

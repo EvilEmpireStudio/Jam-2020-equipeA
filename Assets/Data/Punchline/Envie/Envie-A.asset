@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Envie-A
   m_EditorClassIdentifier: 
-  line: "Vous savez, mon voisin s'est achet\xE9 une nouvelle voiture. Une Porshe
-    ! "
+  line: "Vous savez, mon voisin s'est achet\xE9 une nouvelle voiture. Une Porsche
+    !"
   answers:
-  - "Achetez une Lamborghini, \xE7a lui apprendra !"
-  - 'Pfff, c''est ringard, n''y pensez pas. '
+  - "Acheter une Lamborghini, \xE7a lui apprendra !"
+  - Pfff, c'est ringard, n'y pensez pas.
   - "Dommage qu'une rayure soit si vite arriv\xE9e..."
   censored: 000001
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

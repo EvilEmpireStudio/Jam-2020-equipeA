@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: "Bonjour, jeune \xE9ph\xE8be."
   answers:
-  - 'Bonjour Madame ! Ca fait plaisir de vous voir. '
+  - Bonjour Madame ! Ca fait plaisir de vous voir.
   - "En voil\xE0 des courses saines !"
   - "Ah ! Notre plus fid\xE8le cliente !"
   censored: 000000
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 0

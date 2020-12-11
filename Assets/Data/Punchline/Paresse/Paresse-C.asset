@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Paresse-C
   m_EditorClassIdentifier: 
-  line: "Salut ! Pas trop fatigu\xE9 de ce taf de naze ?"
+  line: "Salut ! Toujours pas fatigu\xE9 de ce taf de naze ?"
   answers:
-  - C'est quoi la "fatigue" ?
-  - "Je fais de belles rencontres quand t'es pas l\xE0."
-  - "Je ferais bien ton psy, mais t'es fauch\xE9e."
+  - "J'ai pas tes parents pour payer ma moiti\xE9 du loyer moi ! "
+  - "Arr\xEAte ! Je fais de belles rencontres quand t'es pas l\xE0."
+  - 'SAUVE MOI DE LAAAAAAAAAAAAAA j''en peux plus... '
   censored: 000000
+  answerReaction: 000000000000000001000000
   delay: 5

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Paresse-B
+  m_Name: Paresse-A
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: b4ad82474e4856940ac80dc56884a868, type: 3}
   items:
-  - {fileID: 11400000, guid: bcc0c027f2c2be846bd45ba5e7f83fd2, type: 2}
+  - {fileID: 11400000, guid: 683dbb5e5d8888b46b609e9984f6663b, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: ec8ca077ccba99c43b8c61cad311fe3c, type: 2}
-  - {fileID: 11400000, guid: bfe72b07ff5e0d549a62660a1adffe0f, type: 2}
-  byeLine: '#Looser'
+  - {fileID: 11400000, guid: 9341b397e33696b4bb3ea52859034c32, type: 2}
+  - {fileID: 11400000, guid: bc673744f57d2fa4c925341d0bdbf3bc, type: 2}
+  byeLine: '#Looser <3'

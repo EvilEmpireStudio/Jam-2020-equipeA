@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: ... M'onjour...
   answers:
-  - 'Bonjour ! '
-  - "Toujours autant en forme \xE0 ce que  "
-  - 'Il fait beau aujourd''hui ! '
+  - "Salut Magda ! Ton \xE9nergie illumine ma journ\xE9e. "
+  - 'M''onjour toi ! Ca te dit un jogging avec moi ce soir ? '
+  - "Bonjour... je vois que je suis pas le seul en manque de caf\xE9. "
   censored: 000000
+  answerReaction: 020000000100000000000000
   delay: 5

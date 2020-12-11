@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Paresse-D
   m_EditorClassIdentifier: 
-  line: "Vous faites pas livraison \xE0 domicile ? "
+  line: "Tu veux pas me livrer \xE0 domicile plutot ? "
   answers:
-  - Tu dors pas dans la rue toi ?
-  - "On se d\xE9place que pour les VIP."
-  - Si, mais je te manquerais trop.
+  - 'Hors de question que je te prive de ta sortie quotidienne ! '
+  - 'Mais bien sur Magda ! Prends moi pour ton robot assistant tant que tu y es. '
+  - "Je pourrais, mais tu me manquerais trop la journ\xE9e ! "
   censored: 010000
+  answerReaction: 000000000000000002000000
   delay: 5

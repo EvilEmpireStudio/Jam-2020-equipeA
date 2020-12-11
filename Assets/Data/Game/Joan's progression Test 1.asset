@@ -46,7 +46,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3f247dd07fe642f46b6ece078051989e, type: 2}
   - {fileID: 11400000, guid: 89b50749c24d1944695042537a1bf267, type: 2}
   - {fileID: 11400000, guid: 2766ca2cafad1fc49b77ed41eba6a6f4, type: 2}
+  - {fileID: 11400000, guid: 4a3a36716f83ea94499f514f4329f634, type: 2}
   - {fileID: 11400000, guid: 2bd75503ac49ff7429b9a234c17cf264, type: 2}
+  - {fileID: 11400000, guid: 4a3a36716f83ea94499f514f4329f634, type: 2}
   - {fileID: 11400000, guid: 2a7576c09d32ea54197d892d9f975ec8, type: 2}
   smsDataList:
   - {fileID: 11400000, guid: 2ec1f5e78feadf142b067231c824568a, type: 2}
@@ -54,3 +56,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 79baa2262433a2c4f9fd71ed6dc353ae, type: 2}
   - {fileID: 11400000, guid: 98f25d2f1d302c643a78f6ff1500c53b, type: 2}
   - {fileID: 11400000, guid: 21c10975e55104945a9b23e493539449, type: 2}
+  lastSMS: {fileID: 0}

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
   m_Name: nosprite
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 51a2209ef11fc6649a9a032ea5723936, type: 3}
   items: []
   test: 
   lines: []
   byeLine: 
   swap: {fileID: 0}
+  stay: 0

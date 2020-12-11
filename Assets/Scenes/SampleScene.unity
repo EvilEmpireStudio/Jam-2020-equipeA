@@ -1999,7 +1999,7 @@ MonoBehaviour:
     type: 3}
   data: {fileID: 11400000, guid: 1429c8c24ce9eab4a930a46e6d862157, type: 2}
   currentClient: {fileID: 0}
-  currentClientIndex: 0
+  currentClientIndex: 30
   clientDialogueBubble: {fileID: 2004648693}
   clientDialogueText: {fileID: 527654314}
   answerButtons:

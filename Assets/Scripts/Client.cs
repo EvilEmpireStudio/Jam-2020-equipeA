@@ -59,6 +59,7 @@ public class Client : MonoBehaviour
                 if (data.byeLine.Length > 2)
                 {
                     GameManager.instance.clientBye.gameObject.SetActive(true);
+                    GameManager.instance.clientBye.GetComponent<Animation>().Play();
                     GameManager.instance.clientByeText.text = data.byeLine;
                 }
                 break;
@@ -105,6 +106,7 @@ public class Client : MonoBehaviour
                         lineCooldown += Time.deltaTime;
                         if (lineCooldown > data.lines[currentLine].delay)
                         {
+                            GameManager.instance.clientDialogueBubble.GetComponent<Animation>().Play("bubbleAnimExit");
                             currentLineState = LineState.Finished;
                             lineCooldown = 0f;
                             break;
@@ -137,13 +139,17 @@ public class Client : MonoBehaviour
                 case LineState.Finished:
                     // switch to next line if possible
                     // switch to NotDisplayed or nothing
-                    GameManager.instance.clientDialogueBubble.gameObject.SetActive(false);
-                    GameManager.instance.DesactiveAnswers();
-                    currentLine++;
-                    currentLineState = LineState.NotDisplayed;
-                    answersLoaded = false;
-                    answerDone = false;
-                    currentAnswer = -1;
+                    //GameManager.instance.clientDialogueBubble.gameObject.SetActive(false);
+                    if (!GameManager.instance.clientDialogueBubble.GetComponent<Animation>().IsPlaying("bubbleAnimExit"))
+                    {
+                        GameManager.instance.clientDialogueBubble.gameObject.SetActive(false);
+                        currentLineState = LineState.NotDisplayed;
+                        GameManager.instance.DesactiveAnswers();
+                        currentLine++;
+                        answersLoaded = false;
+                        answerDone = false;
+                        currentAnswer = -1;
+                    }
                     break;
             }
         }

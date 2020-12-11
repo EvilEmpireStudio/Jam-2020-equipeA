@@ -15,6 +15,8 @@ public class Balance : MonoBehaviour
     public Animation overlayScanner;
     public bool overlayPlayed = false;
 
+    public AudioClip[] balance;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class Balance : MonoBehaviour
             if (currentItem == null && currentItem != collider.gameObject && item.state == Item.State.ReadyToWeight)
             {
                 currentItem = collider.gameObject;
+                AudioSource.PlayClipAtPoint(balance[Random.Range(0, balance.Length - 1)], new Vector3(0, 0, -10));
                 overlayPlayed = false;
             }
             else
@@ -44,6 +47,7 @@ public class Balance : MonoBehaviour
         {
             //Debug.Log("item : " + collider.gameObject.name);
             currentScanningTime += Time.fixedDeltaTime;
+
             if (currentScanningTime > scanTime)
             {
                 collider.GetComponent<Item>().setState(Item.State.Scanned);

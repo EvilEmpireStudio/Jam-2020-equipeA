@@ -18,6 +18,8 @@ public class Scanner : MonoBehaviour
 
     public bool overlayPlayed = false;
 
+    public AudioClip[] scanner;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -60,6 +62,7 @@ public class Scanner : MonoBehaviour
                 {
                     overlayPlayed = true;
                     overlay.Play();
+                    AudioSource.PlayClipAtPoint(scanner[Random.Range(0, scanner.Length - 1)], new Vector3(0, 0, -10));
                 }
             }
         }

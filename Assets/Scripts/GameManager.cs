@@ -45,6 +45,9 @@ public class GameManager : MonoBehaviour
     public GameObject generique;
     public bool end = false;
 
+    public AudioClip phoneSound;
+    public AudioClip[] pop;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -74,6 +77,10 @@ public class GameManager : MonoBehaviour
 
             GameObject clientGO = GameObject.Instantiate(clientPrefab, clientSpawner, Quaternion.identity);
             currentClient = clientGO.GetComponent<Client>();
+            if (!data.clientDataList[currentClientIndex].invisible)
+            {
+                GetComponent<AudioSource>().Play();
+            }
             currentClient.data = data.clientDataList[currentClientIndex++];
             currentClient.init();
             currentClient.spawnClientItems();
@@ -87,6 +94,8 @@ public class GameManager : MonoBehaviour
 
                 PhoneManager.instance.data = data.smsDataList[currentSMSIndex++];
                 PhoneManager.instance.state = PhoneManager.State.ReceiveSMS;
+                AudioSource.PlayClipAtPoint(phoneSound, new Vector3(0, 0, -10));
+
             }
         }
     }
@@ -102,6 +111,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        AudioSource.PlayClipAtPoint(pop[Random.Range(0, pop.Length - 1)], new Vector3(0, 0, -10));
         GameManager.instance.clientDialogueBubble.GetComponent<Animation>().Play("bubbleAnimExit");
 
         DesactiveAnswers();
@@ -153,5 +163,6 @@ public class GameManager : MonoBehaviour
         generique.SetActive(false);
         PhoneManager.instance.data = data.lastSMS;
         PhoneManager.instance.state = PhoneManager.State.ReceiveSMS;
+        AudioSource.PlayClipAtPoint(phoneSound, new Vector3(0, 0, -10));
     }
 }

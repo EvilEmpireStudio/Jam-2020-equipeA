@@ -31,6 +31,8 @@ public class Client : MonoBehaviour
     private bool answerDone = false;
     private int currentAnswer = -1;
 
+    public AudioClip pop;
+    public AudioClip popAnswer;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +57,10 @@ public class Client : MonoBehaviour
                 {
                     Animator animator = gameObject.GetComponent<Animator>();
                     animator.SetBool("CanLeave", true);
+                    if (!data.invisible)
+                    {
+                        GetComponent<AudioSource>().Play();
+                    }
                 }
 
 
@@ -67,6 +73,7 @@ public class Client : MonoBehaviour
                     GameManager.instance.clientBye.gameObject.SetActive(true);
                     GameManager.instance.clientBye.GetComponent<Animation>().Play();
                     GameManager.instance.clientByeText.text = data.byeLine;
+                    //AudioSource.PlayClipAtPoint(pop, new Vector3(0, 0, -10));
                 }
                 break;
             case State.Unspawn:
@@ -103,6 +110,7 @@ public class Client : MonoBehaviour
                     GameManager.instance.clientDialogueText.text = data.lines[currentLine].line;
                     GameManager.instance.clientDialogueBubble.gameObject.SetActive(true);
                     GameManager.instance.clientDialogueBubble.GetComponent<Animation>().Play();
+                    AudioSource.PlayClipAtPoint(pop, new Vector3(0, 0, -10));
                     currentLineState = LineState.InProgress;
                     break;
                 case LineState.InProgress:
@@ -136,6 +144,7 @@ public class Client : MonoBehaviour
                             GameManager.instance.answerButtons[i].gameObject.SetActive(true);
                             GameManager.instance.answerButtons[i].GetComponent<Animation>().Play();
                             GameManager.instance.answerTexts[i].text = answer;
+                            AudioSource.PlayClipAtPoint(popAnswer, new Vector3(0, 0, -10));
                             i++;
                         }
                         answersLoaded = true;

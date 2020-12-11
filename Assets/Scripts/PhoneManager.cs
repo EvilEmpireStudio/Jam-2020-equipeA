@@ -35,6 +35,8 @@ public class PhoneManager : MonoBehaviour
     public Text answer;
     public int answerId = -1;
 
+    public AudioClip sms;
+
     public static PhoneManager instance;
     // Start is called before the first frame update
     void Start()
@@ -129,6 +131,8 @@ public class PhoneManager : MonoBehaviour
     public void Answer(int id)
     {
         answerId = id;
+
+        AudioSource.PlayClipAtPoint(sms, new Vector3(0, 0, -10));
 
         if (data.lastSMS)
         {

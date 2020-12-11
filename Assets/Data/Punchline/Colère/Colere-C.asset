@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Colere-C
   m_EditorClassIdentifier: 
-  line: "Je me suis bless\xE9 en cassant vos assiettes ! J'exige un remboursement
+  line: "Je me suis bless\xE9e en cassant vos assiettes ! J'exige un remboursement
     !"
   answers:
   - "Vous avez pens\xE9 \xE0 la vaisselle en carton ?"

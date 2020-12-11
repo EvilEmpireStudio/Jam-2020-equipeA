@@ -24,3 +24,4 @@ MonoBehaviour:
   byeLine: "Je n'en resterai pas l\xE0 ! C'est honteux !"
   swap: {fileID: 0}
   stay: 0
+  invisible: 1

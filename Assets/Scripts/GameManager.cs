@@ -42,6 +42,8 @@ public class GameManager : MonoBehaviour
     public GameObject phoneGO;
 
     public GameObject boss;
+    public GameObject generique;
+    public bool end = false;
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +60,18 @@ public class GameManager : MonoBehaviour
     {
         if (currentClient == null) //time to spawn a client
         {
+            if (data.clientDataList[currentClientIndex].stay)
+            {
+                //
+                if (!end)
+                {
+                    generique.SetActive(true);
+                    generique.GetComponent<Animation>().Play();
+                }
+                end = true;
+                return;
+            }
+
             GameObject clientGO = GameObject.Instantiate(clientPrefab, clientSpawner, Quaternion.identity);
             currentClient = clientGO.GetComponent<Client>();
             currentClient.data = data.clientDataList[currentClientIndex++];
@@ -126,5 +140,18 @@ public class GameManager : MonoBehaviour
     {
         mode = Mode.Shop;
         PhoneManager.instance.UpdateDisplay();
+    }
+
+    public void End()
+    {
+        //send last SMS
+        if (!phoneGO.activeSelf)
+        {
+            phoneGO.SetActive(true);
+        }
+
+        generique.SetActive(false);
+        PhoneManager.instance.data = data.lastSMS;
+        PhoneManager.instance.state = PhoneManager.State.ReceiveSMS;
     }
 }

@@ -12,4 +12,5 @@ public class ClientData : ScriptableObject
     public Punchline[] lines;
     public string byeLine;
     public Sprite swap;
+    public bool stay = false;
 }

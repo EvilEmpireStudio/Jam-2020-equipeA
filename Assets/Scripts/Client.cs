@@ -43,6 +43,11 @@ public class Client : MonoBehaviour
 
     private void Update()
     {
+        if (data.stay)
+        {
+            return;
+        }
+
         switch (state)
         {
             case State.Dialogue :

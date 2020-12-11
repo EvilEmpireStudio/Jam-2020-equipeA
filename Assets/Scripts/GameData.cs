@@ -7,4 +7,5 @@ public class GameData : ScriptableObject
 {
     public ClientData[] clientDataList;
     public SMS[] smsDataList;
+    public SMS lastSMS;
 }

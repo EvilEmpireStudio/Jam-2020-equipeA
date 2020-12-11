@@ -18,4 +18,6 @@ MonoBehaviour:
   - 'Vous etes resplendissant Boss. '
   - 'Laissez-moi tranquille... '
   censored: 000001
+  answerReaction: 010000000200000000000000
   delay: 5
+  answerSwapSprite: 0

@@ -18,6 +18,7 @@ MonoBehaviour:
   - "Un acte qui rappelle les pires moments du Troisi\xE8me Reich !"
   - 'Oh vous savez, les travaux prennent toujours du retard. Pas de quoi l''envier
     ! '
-  - Je peux vous faire un prix sur les alumettes ET sur l'essence !
+  - Je peux vous faire un prix sur les alumettes ET sur du combustible !
   censored: 010001
+  answerReaction: 
   delay: 5

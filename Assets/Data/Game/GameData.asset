@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: GameData
   m_EditorClassIdentifier: 
   clientDataList:
-  - {fileID: 11400000, guid: 681c5bdcd9229114fb98f113c854849d, type: 2}
-  - {fileID: 11400000, guid: 6814bf39f75a64142b7dd36a0d97f400, type: 2}
-  - {fileID: 11400000, guid: 3fc7517c6bf87a44f8f570c95235fe01, type: 2}
-  - {fileID: 11400000, guid: 61dd4d3137132be4b98ffb3232cecd03, type: 2}
+  - {fileID: 11400000, guid: 6706ea4ef6c374048afd97882419c978, type: 2}
+  - {fileID: 11400000, guid: d4dc25255ec999d47a1b7bb51efffcd0, type: 2}
+  - {fileID: 11400000, guid: faf8f4653a301d94ba56b45e7e18ffb0, type: 2}
+  - {fileID: 11400000, guid: 53b988d1300aa404c8fee0423f18ada0, type: 2}
   smsDataList: []

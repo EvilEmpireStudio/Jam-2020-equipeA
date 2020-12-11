@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Orgueil-C
   m_EditorClassIdentifier: 
-  line: "Yo mon p'tit coeur atomique ! T'as pas vu ma derni\xE8re story ? "
+  line: "Yo mon p'tit coeur atomique ! Ca boom ? T'as pas vu ma derni\xE8re story
+    ? "
   answers:
-  - Kotakuuuuuu !
+  - "Non, mais promis c'est la premi\xE8re chose que je ferais en rentrant. "
   - "Je pr\xE9f\xE8re encore regarder les Ch'tis a Myconos."
-  - "Vous croyez que j'ai que \xE7a \xE0 faire ?"
-  censored: 000000
+  - "Ouais, c'\xE9tait g\xE9nial le truc que vous avez fait avec le machin l\xE0."
+  censored: 000100
+  answerReaction: 
   delay: 5

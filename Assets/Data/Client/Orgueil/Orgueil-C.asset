@@ -15,7 +15,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: de796dd42f6b087489402b6fd422c6e6, type: 3}
   items:
   - {fileID: 11400000, guid: d904073616ba5204eb43084ca6d3778b, type: 2}
+  - {fileID: 11400000, guid: 855c07dbb60c11348a13a623b77a0787, type: 2}
   test: 
   lines:
   - {fileID: 11400000, guid: 6333554d890a6cb44a8958e7a94dbfcd, type: 2}
-  byeLine: "Allez, je me teins les cheveux \xE0 1000 abonn\xE9s ! "
+  - {fileID: 11400000, guid: 0b39501e35df2bc46ac4fabc5a70f659, type: 2}
+  byeLine: 'Abonnez-vous ! '

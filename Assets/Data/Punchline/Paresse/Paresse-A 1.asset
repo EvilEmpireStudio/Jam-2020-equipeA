@@ -19,5 +19,6 @@ MonoBehaviour:
   - "Haha - on va encore piquer les anti-d\xE9presseurs de ta m\xE8re si \xE7a continue.  "
   - Moi aussi je t'aime bien, tu sais ?
   censored: 000000
-  answerReaction: 000000000000000002000000
+  answerReaction: 000000000000000000000000
   delay: 5
+  answerSwapSprite: 0

@@ -18,4 +18,6 @@ MonoBehaviour:
   - 'Mais... tes parents sont contre les unions mixes ? '
   - "Mais... c'est mon format le probl\xE8me ? "
   censored: 
+  answerReaction: 
   delay: 5
+  answerSwapSprite: 1

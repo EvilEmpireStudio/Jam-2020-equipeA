@@ -19,4 +19,5 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: 99bfccc1fc2ebc84eb9d4ce2dab19a16, type: 2}
-  byeLine: Ciao, tas de ferraille <3
+  byeLine: "Enfin peut-\xEAtre..."
+  swap: {fileID: 0}

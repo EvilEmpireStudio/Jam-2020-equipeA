@@ -1991,7 +1991,7 @@ MonoBehaviour:
   clientSpawner: {x: -13, y: -3.3, z: 0}
   clientPrefab: {fileID: 8121187528134706455, guid: 2b287a5c3124900418baff3422b6ee6a,
     type: 3}
-  data: {fileID: 11400000, guid: 22cd86410244ae94baef3e3781a8082a, type: 2}
+  data: {fileID: 11400000, guid: 1429c8c24ce9eab4a930a46e6d862157, type: 2}
   currentClient: {fileID: 0}
   currentClientIndex: 0
   clientDialogueBubble: {fileID: 2004648693}

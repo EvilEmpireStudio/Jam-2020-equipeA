@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Avarice-E
+  m_Name: Avarice-D
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 6607d1e1856b45d4fb0204128f5cc6f2, type: 3}
+  sprite: {fileID: 21300000, guid: b9aa6884926624346a56d852657a84a6, type: 3}
   items: []
   test: 
   lines:
-  - {fileID: 11400000, guid: b43deb00e3b9b794d9abbde6dace53a3, type: 2}
-  byeLine: 'Et laissez les stylos. '
+  - {fileID: 11400000, guid: 323bf0476a510fd4285fdde844655637, type: 2}
+  - {fileID: 11400000, guid: 9f6ce6157579125468fe754e29b3f7c6, type: 2}
+  byeLine: Moi j'ai pas l'habitude de faire des heures supp gratis...
   swap: {fileID: 0}

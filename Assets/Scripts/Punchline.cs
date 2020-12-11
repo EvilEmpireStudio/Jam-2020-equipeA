@@ -14,6 +14,7 @@ public class Punchline : ScriptableObject
 
     public enum Reaction
     {
+        None,
         Choc,
         Happy
     }

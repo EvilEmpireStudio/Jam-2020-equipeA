@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Luxure-B
+  m_Name: Luxure-D 2
   m_EditorClassIdentifier: 
-  line: "Un conseil : ne jamais l\xE9siner sur la margarine ! "
-  answers:
-  - "Je pr\xE9f\xE8re l'huile, un l\xE9ger filet suffit pour toute la soir\xE9e. "
-  - Merci, je suivrais votre conseil !
-  - J'en salive d'avance !
+  line: "Oh, mon ch\xE9ri..."
+  answers: []
   censored: 000000
   delay: 5

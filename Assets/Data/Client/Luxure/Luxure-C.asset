@@ -19,4 +19,5 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: 6a45bf881c8be504491fbad15c47f84e, type: 2}
-  byeLine: "J'aime beaucoup vous id\xE9es, jeune homme !"
+  - {fileID: 11400000, guid: a3e3f385ec820b64c8d07117b10133a0, type: 2}
+  byeLine: 'Allez Ginette, faut pas se laisser aller ! '

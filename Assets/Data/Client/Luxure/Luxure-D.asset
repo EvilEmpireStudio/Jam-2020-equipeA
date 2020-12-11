@@ -18,8 +18,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b860578172ae06446a06282decb48776, type: 2}
   - {fileID: 11400000, guid: 3bef13fa3655c224bbdfe0ac78b41d9a, type: 2}
   - {fileID: 11400000, guid: 6a3cf93452e44d14eba421eb3235ba1f, type: 2}
-  - {fileID: 11400000, guid: 1f89dfe85d99444408b2c748ab302965, type: 2}
   test: 
   lines:
   - {fileID: 11400000, guid: 7cc112036a974344d9545a55da532c87, type: 2}
-  byeLine: Aah... L'insouciance de la jeunesse...
+  - {fileID: 11400000, guid: e2d049e319dfd5b4f9442571d492cbc2, type: 2}
+  byeLine: "Aah, ces jeunes... si beaux mais si b\xEAtes..."

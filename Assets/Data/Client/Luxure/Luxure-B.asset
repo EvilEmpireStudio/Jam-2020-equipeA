@@ -20,4 +20,5 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: e53dc404d6b453a429796467228e59de, type: 2}
+  - {fileID: 11400000, guid: 95572b3e6a759604ba49378d356c8368, type: 2}
   byeLine: "J'adore r\xE9galer mes petits voisins !"

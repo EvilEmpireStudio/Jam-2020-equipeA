@@ -18,5 +18,6 @@ MonoBehaviour:
   - 'On fait aller ! '
   - Moins bien qu'hier mais bien mieux que demain !
   censored: 000001
-  answerReaction: 
+  answerReaction: 020000000100000002000000
   delay: 5
+  answerSwapSprite: 1

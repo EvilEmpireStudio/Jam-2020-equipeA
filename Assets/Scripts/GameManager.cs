@@ -77,13 +77,13 @@ public class GameManager : MonoBehaviour
 
     public void Answer(int id)
     {
-        GameManager.instance.clientDialogueBubble.GetComponent<Animation>().Play("bubbleAnimExit");
-
         if (currentClient.isAnswerCensored(id))
         {
             censored[id].SetActive(true);
             return;
         }
+
+        GameManager.instance.clientDialogueBubble.GetComponent<Animation>().Play("bubbleAnimExit");
 
         DesactiveAnswers();
 

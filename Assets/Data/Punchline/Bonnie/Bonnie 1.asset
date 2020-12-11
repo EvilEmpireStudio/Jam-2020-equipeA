@@ -18,4 +18,6 @@ MonoBehaviour:
   - 'J''adore votre pull. '
   - Ah ? Je travaille ici depuis longtemps pourtant.
   censored: 
+  answerReaction: 000000000200000000000000
   delay: 5
+  answerSwapSprite: 0

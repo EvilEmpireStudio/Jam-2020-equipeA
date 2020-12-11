@@ -18,4 +18,6 @@ MonoBehaviour:
   - "Vous avez pens\xE9 \xE0 en prendre deux ?"
   - "Achetez lui un nouveau jouet, \xE7a lui remeontera le moral ! "
   censored: 000000
+  answerReaction: 000000000100000000000000
   delay: 5
+  answerSwapSprite: 0

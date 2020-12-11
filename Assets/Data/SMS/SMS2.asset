@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: SMS2
   m_EditorClassIdentifier: 
-  line: "Haha ! J'avais peur que tu m'\xE9crives pas"
-  answers: []
-  EventIndex: 23
+  line: "Haha ! J'avais peur que tu m'\xE9crives pas. J'aurais jamais os\xE9 retourner
+    au magasin.  J'ai l'impression d'etre de retour au lyc\xE9e..."
+  answers:
+  - "J'ai detest\xE9 le lyc\xE9e ! A part les maths peut-\xEAtre."
+  - "J'aurais \xE9t\xE9 triste de plus te voir ! "
+  EventIndex: 24

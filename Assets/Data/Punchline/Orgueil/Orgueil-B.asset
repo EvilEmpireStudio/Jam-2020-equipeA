@@ -16,7 +16,8 @@ MonoBehaviour:
   answers:
   - Merci Monsieur ! Vous aussi...
   - "Oh, arr\xEAtez, rien n'est naturel !"
-  - Je m'inspire des plus grands ! Shwarzy, Astro, Hauer...
+  - Je m'inspire des plus grands ! Shwarzy, Astro, Roy Batty...
   censored: 000000
   answerReaction: 
   delay: 5
+  answerSwapSprite: 0

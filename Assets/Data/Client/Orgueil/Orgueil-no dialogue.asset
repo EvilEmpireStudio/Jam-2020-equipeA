@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
   m_Name: Orgueil-no dialogue
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: de796dd42f6b087489402b6fd422c6e6, type: 3}
   items: []
   test: 
   lines: []

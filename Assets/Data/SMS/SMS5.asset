@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: SMS5
   m_EditorClassIdentifier: 
-  line: "Ca te dit un cin\xE9 ce soir ? "
-  answers: []
-  EventIndex: 24
+  line: "Ca te dit un cin\xE9 ce soir ? Ils repassent Star Wars 7 ! (Et j'adore C3PO
+    <3)"
+  answers:
+  - 'Ah c''est le pire, mais pourquoi pas pour se moquer ! '
+  - "C'est le meilleur, je raterai \xE7a pour rien au monde. "
+  - Team R2D2 forever - mais compte sur moi !
+  EventIndex: 26

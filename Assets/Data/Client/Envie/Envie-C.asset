@@ -19,4 +19,5 @@ MonoBehaviour:
   lines:
   - {fileID: 11400000, guid: 816538af145f76e4c8d24d0e868ae10b, type: 2}
   - {fileID: 11400000, guid: 58f2bffeb2029e54d937c96a495f6d95, type: 2}
-  byeLine: Et allez ! Les autres clients sont plus vite sortis...
+  byeLine: Et allez ! Les autres clients sont sortis plus vite...
+  swap: {fileID: 0}

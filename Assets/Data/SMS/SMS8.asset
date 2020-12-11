@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: SMS8
   m_EditorClassIdentifier: 
-  line: "Ha ha, je vois que je parle \xE0 un expert. "
-  answers: []
-  EventIndex: 26
+  line: "Ha ha, je vois que je parle \xE0 un expert. Je passe te chercher \xE0 la
+    fermeture du magasin ! "
+  answers:
+  - "Ca marche - \xE7a ferme \xE0 18h ! "
+  - 'Oki ! L''horloge tourne encore plus lentement que d''habitude du coup. '
+  EventIndex: 28

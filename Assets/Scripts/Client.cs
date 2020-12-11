@@ -155,6 +155,10 @@ public class Client : MonoBehaviour
 
                             currentAnswer = -1;
                         }
+                        if (data.lines[currentLine].answerSwapSprite && data.swap != null)
+                        {
+                            GetComponent<SpriteRenderer>().sprite = data.swap;
+                        }
                         currentLineState = LineState.Finished;
                     }
                     break;

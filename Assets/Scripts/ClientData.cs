@@ -11,4 +11,5 @@ public class ClientData : ScriptableObject
     public int[] test;
     public Punchline[] lines;
     public string byeLine;
+    public Sprite swap;
 }

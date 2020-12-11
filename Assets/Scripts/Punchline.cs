@@ -18,4 +18,6 @@ public class Punchline : ScriptableObject
         Choc,
         Happy
     }
+
+    public bool answerSwapSprite = false;
 }

@@ -16,8 +16,10 @@ MonoBehaviour:
   items:
   - {fileID: 11400000, guid: 187702a9b952dfc4bad10ac183727113, type: 2}
   - {fileID: 11400000, guid: e1ccd646b5ebced49ae86b7daa4b5e6b, type: 2}
+  - {fileID: 11400000, guid: 496266d128c19c148a74ca9f5ea7bc10, type: 2}
   test: 
   lines:
   - {fileID: 11400000, guid: 3b005791277d8b346823aa3cb0ddaa93, type: 2}
   byeLine: 
   swap: {fileID: 0}
+  stay: 0

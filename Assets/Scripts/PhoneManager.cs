@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PhoneManager : MonoBehaviour
 {
@@ -128,5 +129,10 @@ public class PhoneManager : MonoBehaviour
     public void Answer(int id)
     {
         answerId = id;
+
+        if (data.lastSMS)
+        {
+            SceneManager.LoadScene("EndScene");
+        }
     }
 }

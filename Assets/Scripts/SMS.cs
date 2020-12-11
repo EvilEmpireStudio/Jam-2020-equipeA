@@ -8,4 +8,5 @@ public class SMS : ScriptableObject
     public string line;
     public string[] answers;
     public int EventIndex;
+    public bool lastSMS = false;
 }

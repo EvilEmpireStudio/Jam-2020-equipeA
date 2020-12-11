@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: placeholder
   m_EditorClassIdentifier: 
-  line: Viens avec moi mon amour
+  line: "Si tu veux fuir avec moi, je t\u2019attend dehors..."
   answers:
-  - "j\u2019arrive"
+  - "Oh! ... J\u2019arrive."
+  - "TG kona\xE7e"
   EventIndex: 0
+  lastSMS: 1

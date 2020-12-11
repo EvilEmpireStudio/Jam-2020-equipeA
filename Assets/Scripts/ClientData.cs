@@ -13,4 +13,5 @@ public class ClientData : ScriptableObject
     public string byeLine;
     public Sprite swap;
     public bool stay = false;
+    public bool invisible = false;
 }

@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
 
         foreach (Text text in answerTexts)
         {
-            text.color = Color.black;
+            text.color = Color.white;
         }
 
         foreach (GameObject go in censored)

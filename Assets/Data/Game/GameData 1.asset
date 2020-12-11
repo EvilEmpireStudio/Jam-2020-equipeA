@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a523369bac6ab40a1dd318fcdc0173, type: 3}
+  m_Name: GameData 1
+  m_EditorClassIdentifier: 
+  clientDataList:
+  - {fileID: 11400000, guid: 17989d937d0c80e4ab2cd168b7f9d1fb, type: 2}
+  - {fileID: 11400000, guid: 4a3a36716f83ea94499f514f4329f634, type: 2}
+  smsDataList: []
+  lastSMS: {fileID: 11400000, guid: 6fb824137c6441b4e9b00a573734e576, type: 2}

@@ -41,6 +41,8 @@ public class GameManager : MonoBehaviour
     //phone
     public GameObject phoneGO;
 
+    public GameObject boss;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -79,7 +81,10 @@ public class GameManager : MonoBehaviour
     {
         if (currentClient.isAnswerCensored(id))
         {
-            censored[id].SetActive(true);
+            //censored[id].SetActive(true);
+            answerTexts[id].text = "CENSURÉ";
+            answerTexts[id].color = Color.red;
+            boss.GetComponent<Animation>().Play();
             return;
         }
 
@@ -98,6 +103,11 @@ public class GameManager : MonoBehaviour
         foreach (Button button in answerButtons)
         {
             button.gameObject.SetActive(false);
+        }
+
+        foreach (Text text in answerTexts)
+        {
+            text.color = Color.black;
         }
 
         foreach (GameObject go in censored)

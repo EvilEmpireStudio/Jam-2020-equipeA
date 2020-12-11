@@ -185,6 +185,12 @@ public class Client : MonoBehaviour
                     break;
             }
         }
+        else
+        {
+            Animator animator2 = gameObject.GetComponent<Animator>();
+            animator2.SetBool("Choc", false);
+            animator2.SetBool("Happy", false);
+        }
     }
 
     public void Answer (int id)

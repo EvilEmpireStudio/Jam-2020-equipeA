@@ -871,7 +871,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!111 &579306597
 Animation:
   m_ObjectHideFlags: 0
@@ -2011,6 +2011,7 @@ MonoBehaviour:
   clientBye: {fileID: 587410227}
   clientByeText: {fileID: 527799404}
   phoneGO: {fileID: 262525621}
+  boss: {fileID: 579306596}
 --- !u!4 &1428992352
 Transform:
   m_ObjectHideFlags: 0

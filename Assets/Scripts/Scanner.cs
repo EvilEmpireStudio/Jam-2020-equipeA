@@ -12,9 +12,12 @@ public class Scanner : MonoBehaviour
     public Text displayName;
     public Text displayPrice;
 
+    static public Scanner instance;
+
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         currentScanningTime = 0f;   
     }
 

@@ -44,7 +44,13 @@ public class Balance : MonoBehaviour
                 collider.GetComponent<Item>().setState(Item.State.Scanned);
                 displayText.text = (collider.GetComponent<Item>().data.price + Random.Range(0,5)) + "g";
                 displayText.color = Color.green;
-                 
+
+                Scanner.instance.displayName.text = collider.GetComponent<Item>().data.name;
+                Scanner.instance.displayName.color = Color.green;
+
+                Scanner.instance.displayPrice.text = "" + collider.GetComponent<Item>().data.price + "€";
+                Scanner.instance.displayPrice.color = Color.green;
+
             }
             else
             {
@@ -55,6 +61,11 @@ public class Balance : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collider)
     {
+        Scanner.instance.displayName.text = "-";
+        Scanner.instance.displayName.color = Color.red;
+
+        Scanner.instance.displayPrice.text = "-";
+        Scanner.instance.displayPrice.color = Color.red;
         displayText.text = "0g";
         displayText.color = Color.red;
         currentScanningTime = 0f;

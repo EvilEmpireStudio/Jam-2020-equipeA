@@ -18,4 +18,5 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: 7d79322275b2d7e47af1e3a21a846054, type: 2}
-  byeLine: Mamaaaaaaaaaaaaaaan !!
+  - {fileID: 11400000, guid: 5c40647401a707f4097c017a769910f8, type: 2}
+  byeLine: '... sauf s''ils sont beaux. '

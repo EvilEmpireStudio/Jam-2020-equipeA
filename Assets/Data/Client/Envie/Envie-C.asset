@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Envie-D
+  m_Name: Envie-C
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: ef0fcfcc92e290445995ca8e52b3da7c, type: 3}
   items:
-  - {fileID: 11400000, guid: 683dbb5e5d8888b46b609e9984f6663b, type: 2}
+  - {fileID: 11400000, guid: 99d0073b96f41074f85e07e1f2a816c7, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: eb14dc3e78197d74f85e1adbda6036c1, type: 2}
-  byeLine: Il vous reste des jetons ?
+  - {fileID: 11400000, guid: 816538af145f76e4c8d24d0e868ae10b, type: 2}
+  - {fileID: 11400000, guid: 58f2bffeb2029e54d937c96a495f6d95, type: 2}
+  byeLine: Et allez ! Les autres clients sont plus vite sortis...

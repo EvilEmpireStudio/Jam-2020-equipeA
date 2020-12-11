@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: Pourquoi je choisis toujours la file la plus lente...
   answers:
-  - J'ai toujours les pires clients.
   - Vous avez entendu parler du Karma ?
-  - Heureusement, personne vous attend.
-  censored: 010000
+  - Heureusement que personne ne vous attends !
+  - "D\xE9sol\xE9 Monsieur ! "
+  censored: 010100
   delay: 5

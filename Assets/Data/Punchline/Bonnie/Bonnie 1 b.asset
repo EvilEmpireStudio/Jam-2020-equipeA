@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: 'C''est quoi votre signe astrologique ? '
   answers:
-  - "Ca d\xE9pend des jours. "
-  - "Balance... du moins a en croire mon m\xE9tier ! "
+  - "Je suis d\xE9sol\xE9, je le connais pas. "
+  - "Sagittaire ascendant B\xE9lier, avec une l\xE9g\xE8re influence de V\xE9nus
+    les jours de pleine lune. "
+  - "Ca d\xE9pend des moments - pl\xFBtot Balance ces temps-ci. "
   censored: 
   delay: 5

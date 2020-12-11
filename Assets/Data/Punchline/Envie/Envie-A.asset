@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Envie-A
   m_EditorClassIdentifier: 
-  line: "Vous avez de la chance de faire ce boulot ! Pas besoin de r\xE9fl\xE9chir."
+  line: "Vous savez, mon voisin s'est achet\xE9 une nouvelle voiture. Une Porshe
+    ! "
   answers:
-  - Ah, et bien... Merci.
-  - "Le job de mes r\xEAves !"
-  - Vous avez un CV ?
-  censored: 000000
+  - "Achetez une Lamborghini, \xE7a lui apprendra !"
+  - 'Pfff, c''est ringard, n''y pensez pas. '
+  - "Dommage qu'une rayure soit si vite arriv\xE9e..."
+  censored: 000001
   delay: 5

@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientDataList:
   - {fileID: 11400000, guid: 17989d937d0c80e4ab2cd168b7f9d1fb, type: 2}
+  - {fileID: 11400000, guid: 41dbd86700b3d97498e234f2b0be54bc, type: 2}
   - {fileID: 11400000, guid: 8945b5707b198f542899f32b98d174c9, type: 2}
+  - {fileID: 11400000, guid: 41dbd86700b3d97498e234f2b0be54bc, type: 2}
   - {fileID: 11400000, guid: eb30dd49ade61b246a511d70c31ec209, type: 2}
-  - {fileID: 11400000, guid: 2766ca2cafad1fc49b77ed41eba6a6f4, type: 2}
   - {fileID: 11400000, guid: 2a7576c09d32ea54197d892d9f975ec8, type: 2}
   smsDataList: []

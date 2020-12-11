@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Envie-D
   m_EditorClassIdentifier: 
-  line: Mon cadi grince plus que celui des autres !
+  line: "Vous avez de la chance de faire ce boulot ! Pas besoin de r\xE9fl\xE9chir."
   answers:
-  - Le WD-40, c'est important.
-  - C'est une conspiration mondiale !
-  - "Merci de l'avoir signal\xE9 !"
-  censored: 000100
+  - Ah, et bien... Merci.
+  - "Tellement \xE9panouissant !"
+  - 'Vous feriez un parfait caissier. '
+  censored: 000101
   delay: 5

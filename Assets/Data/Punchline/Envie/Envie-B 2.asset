@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Envie-B
+  m_Name: Envie-B 2
   m_EditorClassIdentifier: 
-  line: Mon  cadi grince plus que celui des autres !
-  answers:
-  - 'Mon papa disait toujours: on ne met  jamais assez de WD-40...'
-  - "Vous \xEAtes la cible d'une conspiration mondiale !"
-  - "Merci de l'avoir signal\xE9 !"
-  censored: 000100
+  line: Oui vous avez raison...
+  answers: []
+  censored: 000000
   delay: 5

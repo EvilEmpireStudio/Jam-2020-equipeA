@@ -10,14 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Avarice-D
+  m_Name: Avarice no dialogue
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: b9aa6884926624346a56d852657a84a6, type: 3}
-  items:
-  - {fileID: 11400000, guid: 63e2c3a242ee26b45972bbc5833456aa, type: 2}
-  - {fileID: 11400000, guid: 63e2c3a242ee26b45972bbc5833456aa, type: 2}
-  - {fileID: 11400000, guid: 330438012367c77459625b6f2a7422c1, type: 2}
+  items: []
   test: 
-  lines:
-  - {fileID: 11400000, guid: ab4cb7990f3cd4c4fab55ccb56ebd02b, type: 2}
-  byeLine: "Je ferais passer \xE7a en note de frais. "
+  lines: []
+  byeLine: 

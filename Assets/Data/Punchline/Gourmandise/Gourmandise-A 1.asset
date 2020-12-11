@@ -10,14 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Avarice-D
+  m_Name: Gourmandise-A 1
   m_EditorClassIdentifier: 
-  line: "Nous avons invit\xE9 le Secours Populaire ! L'occasion de faire un geste
-    pour les plus d\xE9munis. "
-  answers:
-  - "C'est pour l'image ou juste pour inciter les clients \xE0 acheter plus d'articles
-    ? "
-  - "Et mes heures supp non pay\xE9es, on en parle ? "
-  - "Quelle g\xE9n\xE9rosit\xE9 Monsieur. "
-  censored: 010100
+  line: 'Maman dit de pas parler aux inconnus... '
+  answers: []
+  censored: 
   delay: 5

@@ -91,6 +91,10 @@ public class Client : MonoBehaviour
                 case LineState.NotDisplayed:
                     //load the ui
                     //put in InProgress state;
+                    Animator animator2 = gameObject.GetComponent<Animator>();
+                    animator2.SetBool("Choc", false);
+                    animator2.SetBool("Happy", false);
+
                     GameManager.instance.clientDialogueText.text = data.lines[currentLine].line;
                     GameManager.instance.clientDialogueBubble.gameObject.SetActive(true);
                     GameManager.instance.clientDialogueBubble.GetComponent<Animation>().Play();
@@ -132,8 +136,25 @@ public class Client : MonoBehaviour
                         answersLoaded = true;
                     }
                     else if (answersLoaded && answerDone)
-                    {
+                    { 
                         // can use currentAnswer info
+                        if (currentAnswer > -1 && currentAnswer < data.lines[currentLine].answerReaction.Length)
+                        {
+                            Animator animator = gameObject.GetComponent<Animator>();
+                            switch (data.lines[currentLine].answerReaction[currentAnswer])
+                            {
+                                case Punchline.Reaction.Choc:
+                                    animator.SetBool("Choc", true);
+                                    break;
+                                case Punchline.Reaction.Happy:
+                                    animator.SetBool("Happy", true);
+                                    break;
+                                default:
+                                    break;
+                            }
+
+                            currentAnswer = -1;
+                        }
                         currentLineState = LineState.Finished;
                     }
                     break;
@@ -141,6 +162,10 @@ public class Client : MonoBehaviour
                     // switch to next line if possible
                     // switch to NotDisplayed or nothing
                     //GameManager.instance.clientDialogueBubble.gameObject.SetActive(false);
+                    /*Animator animator2 = gameObject.GetComponent<Animator>();
+                    animator2.SetBool("Choc", false);
+                    animator2.SetBool("Happy", false);*/
+
                     if (!GameManager.instance.clientDialogueBubble.GetComponent<Animation>().IsPlaying("bubbleAnimExit"))
                     {
                         GameManager.instance.clientDialogueBubble.gameObject.SetActive(false);
@@ -150,6 +175,8 @@ public class Client : MonoBehaviour
                         answersLoaded = false;
                         answerDone = false;
                         currentAnswer = -1;
+
+
                     }
                     break;
             }
@@ -178,6 +205,9 @@ public class Client : MonoBehaviour
         spriteRenderer.sprite = data.sprite;
 
         gameObject.name = data.sprite.name;
+
+        Vector3 offset = new Vector3(data.sprite.bounds.size.x/2, data.sprite.bounds.size.y, 0);
+        transform.GetChild(0).transform.localPosition = offset;
     }
 
     class MyComparer : IComparer<GameObject>

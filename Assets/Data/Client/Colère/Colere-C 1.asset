@@ -19,9 +19,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dadb35af32e51fd42ac87e9ac28ac057, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: df3964baab1f97c409ed9e732505855b, type: 2}
+  - {fileID: 11400000, guid: 77d6972a081dad84cbb4601c4d72a2bf, type: 2}
   - {fileID: 11400000, guid: cfdcaa0179658ca40968e454d1fcb336, type: 2}
   byeLine: "Je n'en resterai pas l\xE0 ! C'est honteux !"
   swap: {fileID: 0}
   stay: 0
-  invisible: 1
+  invisible: 0

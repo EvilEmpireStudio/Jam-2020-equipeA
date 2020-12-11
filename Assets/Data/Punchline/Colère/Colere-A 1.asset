@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Colere-B-2
+  m_Name: Colere-A 1
   m_EditorClassIdentifier: 
-  line: J'exige un remboursement !
-  answers:
-  - "Bien s\xFBr."
-  - On est pas sur Steam ici...
-  - "S\xE9curit\xE9 !"
-  censored: 000100
-  delay: 3
+  line: "Vou \xEAtes d'une molesse ! Faut se s\xE9couer un peu dans la vie."
+  answers: []
+  censored: 000001
+  delay: 5

@@ -16,6 +16,7 @@ MonoBehaviour:
   answers:
   - 'Oui, avec un autre monsieur que ton papa. '
   - "J'ai l'air d'une cam\xE9ra de s\xE9curit\xE9 ?"
-  - Y'en a qui travaille ici, tu sais ? Zou !
-  censored: 
+  - "Non, mais demande \xE0 la caisse centrale de faire un appel... on va vite la
+    retrouver."
+  censored: 010100
   delay: 5

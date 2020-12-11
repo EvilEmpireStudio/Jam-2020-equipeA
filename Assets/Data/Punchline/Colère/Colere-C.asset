@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Colere-C
   m_EditorClassIdentifier: 
-  line: "Je n'ai jamais vu un supermarch\xE9 aussi mal nettoy\xE9 ! "
+  line: "Je me suis bless\xE9 en cassant vos assiettes ! J'exige un remboursement
+    !"
   answers:
-  - 'Merci pour votre retour ! '
-  - "Et moi une cliente aussi b\xEAte..."
-  - "Tenez, une serpill\xE8re."
-  censored: 000100
-  delay: 5
+  - "Vous avez pens\xE9 \xE0 la vaisselle en carton ? "
+  - "Le magasin ne rembourse que les articles non-ouverts, je suis d\xE9sol\xE9. "
+  - C'est vous ! Vous que je vois dans mes cauchemars la nuit !
+  censored: 010001
+  delay: 2

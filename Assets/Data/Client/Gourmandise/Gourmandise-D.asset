@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Gourmandise-B
+  m_Name: Gourmandise-D
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: fd2f35391118293429388f131eac2bc7, type: 3}
   items:
-  - {fileID: 11400000, guid: 187702a9b952dfc4bad10ac183727113, type: 2}
+  - {fileID: 11400000, guid: c874b782732f0964092b8cdc59e0a86b, type: 2}
+  - {fileID: 11400000, guid: f4259127becee6946a2d16f535b6fce3, type: 2}
+  - {fileID: 11400000, guid: 64d546b4ecaa4bb4b89fdc6eda9daafe, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: da7335886f1f1fc49a0d8764db352a63, type: 2}
-  byeLine: Papaaaaaa ?
+  - {fileID: 11400000, guid: 082dcd7f5f6c43443bf241e5acc19f6f, type: 2}
+  byeLine: 'Oh, un bonbon par terre ! '

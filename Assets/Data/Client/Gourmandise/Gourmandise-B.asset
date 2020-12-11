@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49695e10b69a019449090d02214adf94, type: 3}
-  m_Name: Colere-D
+  m_Name: Gourmandise-B
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 6f4d41e3e99337c4fac2f4caf5d1be78, type: 3}
+  sprite: {fileID: 21300000, guid: fd2f35391118293429388f131eac2bc7, type: 3}
   items:
-  - {fileID: 11400000, guid: 41e9d2a623ca69049a021b3e66a22a3c, type: 2}
-  - {fileID: 11400000, guid: ddfef8526b48f6240b0609333a2491d6, type: 2}
+  - {fileID: 11400000, guid: 187702a9b952dfc4bad10ac183727113, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: a11354c5e968012409cb58a2efa62f48, type: 2}
-  byeLine: "Quelle belle journ\xE9e..."
+  - {fileID: 11400000, guid: da7335886f1f1fc49a0d8764db352a63, type: 2}
+  byeLine: Mamaaaaaaaan ! Le monsieur veut me montrer son fourgon...

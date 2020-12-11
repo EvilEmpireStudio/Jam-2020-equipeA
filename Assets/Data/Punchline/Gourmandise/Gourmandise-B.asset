@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: ...
   answers:
-  - 'Alors on dit pas bonjour ? '
+  - 'Alors on dit toujours pas bonjour ? '
   - 'Baisse les yeux gamine. '
   - "Tr\xE8s classe ton appareil !"
-  censored: 
+  censored: 000100
   delay: 5

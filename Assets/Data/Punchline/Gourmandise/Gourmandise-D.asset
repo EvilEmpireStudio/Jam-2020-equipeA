@@ -15,7 +15,8 @@ MonoBehaviour:
   line: "Z'ai retrouv\xE9 ma maman !"
   answers:
   - Non. C'est un clone.
-  - 'L''autre monsieur va bien ? '
-  - 'Enfin la paix ? '
-  censored: 
+  - "Mouais... \xE0 ta place, je la laisserais pas m'emmener en foret pour \"une
+    promenade\"."
+  - 'Ah, j''ai eu peur ! '
+  censored: 010100
   delay: 5

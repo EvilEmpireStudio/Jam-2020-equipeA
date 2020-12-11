@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: Gourmandise-B 1
   m_EditorClassIdentifier: 
   line: 'Maman dit de pas parler aux inconnus. '
-  answers:
-  - 
-  - 
-  - 
+  answers: []
   censored: 
   delay: 5

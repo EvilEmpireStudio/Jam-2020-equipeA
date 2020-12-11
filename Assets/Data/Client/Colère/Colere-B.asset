@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 6f4d41e3e99337c4fac2f4caf5d1be78, type: 3}
   items:
-  - {fileID: 11400000, guid: 88cd6722b84201b488fa7e1ac4540f83, type: 2}
-  - {fileID: 11400000, guid: 977530f72e4315e4396ac7d9416b4c30, type: 2}
-  - {fileID: 11400000, guid: dadb35af32e51fd42ac87e9ac28ac057, type: 2}
+  - {fileID: 11400000, guid: e1ccd646b5ebced49ae86b7daa4b5e6b, type: 2}
+  - {fileID: 11400000, guid: 5721b4d39ebe2d44cb3d980bf15bf1bf, type: 2}
   test: 
   lines:
-  - {fileID: 11400000, guid: df3964baab1f97c409ed9e732505855b, type: 2}
-  - {fileID: 11400000, guid: db975a7d2bc229c43bd378dd60d9ac67, type: 2}
-  byeLine: "Je n'en resterai pas l\xE0 ! C'est honteux !"
+  - {fileID: 11400000, guid: 77d6972a081dad84cbb4601c4d72a2bf, type: 2}
+  - {fileID: 11400000, guid: 63884f165a81a6442a298965018a12ac, type: 2}
+  byeLine: 'Vous et vos semblables volez tout notre travail ! '

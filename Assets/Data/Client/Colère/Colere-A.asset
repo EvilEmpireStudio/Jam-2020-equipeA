@@ -20,4 +20,5 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: 0d66f4fb1990d8b44af77c1345013c22, type: 2}
-  byeLine: "Tous les m\xEAmes ? Franchement..."
+  - {fileID: 11400000, guid: 928d2238aece7f741b1a8da453dde3f9, type: 2}
+  byeLine: Les jeunes de nos jours...

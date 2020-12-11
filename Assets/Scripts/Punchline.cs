@@ -8,5 +8,13 @@ public class Punchline : ScriptableObject
     public string line;
     public string[] answers;
     public bool[] censored;
+    public Reaction[] answerReaction;
     public float delay = 5f;
+
+
+    public enum Reaction
+    {
+        Choc,
+        Happy
+    }
 }

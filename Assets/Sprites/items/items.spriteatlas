@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: items
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 49257d74c299dd64282f6bf2904f9d89, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 02854c81725f5a547aac621aba403872, type: 3}
+  - {fileID: 21300000, guid: 77ff10028162265449148b48c251835b, type: 3}
+  - {fileID: 21300000, guid: bfc40a3227b4d6f45bc07425c1bc8d5c, type: 3}
+  - {fileID: 21300000, guid: 8f834162c8433f44185662ae472c9cc6, type: 3}
+  - {fileID: 21300000, guid: bc5819923f5fb4b408f0e0daba3f4f01, type: 3}
+  - {fileID: 21300000, guid: b76315b2198788945a55849bcd2e77d2, type: 3}
+  - {fileID: 21300000, guid: e0154833f2ce79845aa683be6e1cf751, type: 3}
+  - {fileID: 21300000, guid: abd4a1738db3e6a429d9f71e3b1ced72, type: 3}
+  - {fileID: 21300000, guid: 6dd6d5f3d77dcd241b42a265d642a16b, type: 3}
+  - {fileID: 21300000, guid: c1810624d55099a4ab25c69c1a0930aa, type: 3}
+  - {fileID: 21300000, guid: 502ce474f037bf84293b2366cb870b77, type: 3}
+  - {fileID: 21300000, guid: d158473596baa42418434e4f8b8faf9b, type: 3}
+  - {fileID: 21300000, guid: e8eb2545eb06ebd4facf4f6b837686eb, type: 3}
+  - {fileID: 21300000, guid: db7cd0d58db41a642b1a525093ba3968, type: 3}
+  - {fileID: 21300000, guid: 4f0230f5afe2b7449867a92ebac62440, type: 3}
+  - {fileID: 21300000, guid: cf1d65f5bf4ed0840906447dcd9f5b2c, type: 3}
+  - {fileID: 21300000, guid: 43dcb91631f9b974a95f2882bfc44213, type: 3}
+  - {fileID: 21300000, guid: 391e8b96105a96d46a770e083a422075, type: 3}
+  - {fileID: 21300000, guid: 76c921a65e83c1740980c2ff440c7651, type: 3}
+  - {fileID: 21300000, guid: 8754b627a7dae4844ad901304aaa9ff9, type: 3}
+  - {fileID: 21300000, guid: 58457747ba676e2478beea1c276e4e8f, type: 3}
+  - {fileID: 21300000, guid: 8b8bb2872d1146840a74c31e62a71f1d, type: 3}
+  - {fileID: 21300000, guid: 499a91e7abc9b88468306e1d64dfeb02, type: 3}
+  - {fileID: 21300000, guid: 7646e4e73fe7104488b690d5f1b4a546, type: 3}
+  - {fileID: 21300000, guid: ca7e811818cf012488872c4ed810f44a, type: 3}
+  - {fileID: 21300000, guid: 877fd97844b61bc4ca8d8c004bbeec8e, type: 3}
+  - {fileID: 21300000, guid: 6171bad861b9a42438109b355c7aa404, type: 3}
+  - {fileID: 21300000, guid: 9a3497197a2928d4ba674c924f23c3a3, type: 3}
+  - {fileID: 21300000, guid: 4da7a3391833d194ca5aac1f624aa821, type: 3}
+  - {fileID: 21300000, guid: 39875c7934002be4090f1608770690f0, type: 3}
+  - {fileID: 21300000, guid: 6b98dab9dc14a5c4db403ce4d22fe7f8, type: 3}
+  - {fileID: 21300000, guid: 6b5ca2baa138f95488394abb5d1ae52e, type: 3}
+  - {fileID: 21300000, guid: 5fdc3e9b4754c0441b9c95134c65daad, type: 3}
+  - {fileID: 21300000, guid: 9fcb4afbd83783d49b7c01b24e103f98, type: 3}
+  - {fileID: 21300000, guid: 4d98c36cad65a9f4a8d7b72dfa57765a, type: 3}
+  - {fileID: 21300000, guid: 43a2fd3d82c170349aabd751f7a568ea, type: 3}
+  - {fileID: 21300000, guid: 037aec9da7e9b8742adca2f157a05684, type: 3}
+  - {fileID: 21300000, guid: b0b3b6fdef47f7e4d942e3d587c080f4, type: 3}
+  - {fileID: 21300000, guid: dae8a1be089ca7e48bfb696140edf86c, type: 3}
+  - {fileID: 21300000, guid: 9e31eeee2ce3a7644ac78af4a5e6b532, type: 3}
+  - {fileID: 21300000, guid: b3631c0f783c6d549b199355ca843fd8, type: 3}
+  - {fileID: 21300000, guid: 01d6bf5f425138549a424831df0ef2fb, type: 3}
+  - {fileID: 21300000, guid: 3233566f925e5ba4381d2ed75b870c39, type: 3}
+  - {fileID: 21300000, guid: 2a188c7fbfc6c7d4081b114609373200, type: 3}
+  - {fileID: 21300000, guid: f6f562cfc164a1b4d97a95cca22992ac, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - pate
+  - cisaille
+  - gants
+  - tapette
+  - camembert
+  - essence
+  - beurre
+  - boxe
+  - pomme
+  - pizza
+  - concombre
+  - sac_poubelle
+  - torch
+  - balayette
+  - marteau
+  - gel
+  - banane
+  - yoga
+  - popcorn
+  - pinces
+  - mega
+  - margarine
+  - vase
+  - scotch
+  - tutu
+  - deo
+  - acide
+  - dagoba
+  - vaisselle
+  - riz
+  - noodles
+  - lunettes
+  - glace
+  - laisse
+  - chantilly
+  - pates
+  - camera
+  - saligo
+  - balle
+  - sandwich
+  - coke
+  - collier
+  - corde
+  - donuts
+  - pansements
+  m_Tag: items
+  m_IsVariant: 0

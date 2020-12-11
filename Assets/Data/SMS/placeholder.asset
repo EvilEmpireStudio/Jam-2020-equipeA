@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfee20e2c2aefd458743b1e40e49f54, type: 3}
   m_Name: placeholder
   m_EditorClassIdentifier: 
-  line: "Si tu veux fuir avec moi, je t\u2019attend dehors..."
+  line: "Je suis derri\xE8re le magasin... Je te laisse 5 minutes pour me rejoindre
+    si \xE7a t'interesse !"
   answers:
-  - "Oh! ... J\u2019arrive."
-  - "TG kona\xE7e"
+  - '... Tu vas mettre du temps pour te rattraper de celle-la. J''arrive. '
+  - T'as deux minutes pour te barrer avant que j'appelle la police.
+  - 'Va en enfer. '
   EventIndex: 0
   lastSMS: 1

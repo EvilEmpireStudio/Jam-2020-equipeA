@@ -367,9 +367,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Dev Team\n\nProducteur \xE9xecutif - Alexandre Chamoy\nSc\xE9nariste -
-    Joan Blach\xE8re\nArtiste - Dylan Eurlings\nProgrammeur - Damien Clergeaud\n\nNous
-    remercions Evil Empire"
+  m_Text: "Dev Team\n\nCascadeur - Alexandre Chamoy\nSc\xE9nariste - Joan Blach\xE8re\nArtiste
+    - Dylan Eurlings\nJongleur - Damien Clergeaud\n\nNous remercions Evil Empire"
 --- !u!224 &3279586772153537696
 RectTransform:
   m_ObjectHideFlags: 0

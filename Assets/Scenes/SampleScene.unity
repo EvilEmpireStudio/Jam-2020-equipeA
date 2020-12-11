@@ -3824,6 +3824,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3279586772740550755, guid: 1e5f3ef16f4ff3e4cb386892caf44199,
+        type: 3}
+      propertyPath: m_Text
+      value: "Dev Team\n\nCascadeur - Alexandre Chamoy\nSc\xE9nariste - Joan Blach\xE8re\nArtiste
+        - Dylan Eurlings\nJongleur - Damien Clergeaud\n\nNous remercions Evil Empire"
+      objectReference: {fileID: 0}
     - target: {fileID: 3279586773599354746, guid: 1e5f3ef16f4ff3e4cb386892caf44199,
         type: 3}
       propertyPath: m_Name

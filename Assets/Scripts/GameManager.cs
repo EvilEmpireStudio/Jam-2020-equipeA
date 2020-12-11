@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     public GameData data;
     public Client currentClient;
 
-    private int currentClientIndex = 0;
+    public int currentClientIndex = 0;
     private int currentSMSIndex = 0;
 
     //Dialogue UI

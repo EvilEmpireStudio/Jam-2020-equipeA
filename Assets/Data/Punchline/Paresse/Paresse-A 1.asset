@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Paresse-A 1
   m_EditorClassIdentifier: 
-  line: "M'emb\xEAte pas... Te voir est l'\xE9v\xE9nement le plus int\xE9ressant
-    de la journ\xE9e"
+  line: "M'emb\xEAte pas... Te voir est l'\xE9v\xE9nement le plus sympa de ma journ\xE9e."
   answers:
-  - C'est dire si ta vie est palpitante...
+  - C'est dire si ta vie est palpitante !
   - "Haha - on va encore piquer les anti-d\xE9presseurs de ta m\xE8re si \xE7a continue.  "
   - Moi aussi je t'aime bien, tu sais ?
   censored: 000000
-  answerReaction: 000000000000000000000000
+  answerReaction: 000000000000000002000000
   delay: 5
   answerSwapSprite: 0

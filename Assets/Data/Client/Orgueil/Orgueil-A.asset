@@ -20,4 +20,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 708a576e2f1e49d409d822f0e1260411, type: 2}
   - {fileID: 11400000, guid: f92fb377b6961ed4fba03f2e8a89e4bc, type: 2}
   byeLine: A la prochaine chef !
-  swap: {fileID: 21300000, guid: b4b90bdd34d4e3041afa4ffe0aa24cf6, type: 3}
+  swap: {fileID: 0}

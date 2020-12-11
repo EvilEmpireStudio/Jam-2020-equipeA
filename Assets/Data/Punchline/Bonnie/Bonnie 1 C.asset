@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
-  m_Name: Orgueil-A
+  m_Name: Bonnie 1 C
   m_EditorClassIdentifier: 
-  line: Yo ! Bien ou bien ?
-  answers:
-  - Bien Monsieur.  Et vous ?
-  - 'On fait aller ! '
-  - Moins bien qu'hier mais bien mieux que demain !
-  censored: 000001
+  line: "Moi c'est B\xE9lier ! J'y crois pas mais j'adore lire mon horoscope et celui
+    des autres. "
+  answers: []
+  censored: 
   answerReaction: 
   delay: 5
   answerSwapSprite: 0

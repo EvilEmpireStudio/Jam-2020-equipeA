@@ -15,7 +15,7 @@ MonoBehaviour:
   line: 'Coucou Clyde ! Je vois qu''il y a plus personne dans le magasin. '
   answers:
   - "T'as pris des popcorns sal\xE9s ou sucr\xE9s ? "
-  - Oui, tous les autres sont partis !
+  - 'Oui, tous les autres sont partis ! ... C''est une proposition ? '
   - 'T''en as mis du temps ! On va pas etre en retard ? '
   censored: 
   delay: 5

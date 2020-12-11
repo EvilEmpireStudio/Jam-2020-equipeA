@@ -20,4 +20,4 @@ MonoBehaviour:
   lines:
   - {fileID: 11400000, guid: b6fa52655f222cf4495aed2335b06a8b, type: 2}
   - {fileID: 11400000, guid: aaf8a614de2ad8442a084c41434600a3, type: 2}
-  byeLine: 'Je dois filer, on se voit demain ! '
+  byeLine: 'On se voit demain ! '

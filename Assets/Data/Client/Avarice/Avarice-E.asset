@@ -17,7 +17,4 @@ MonoBehaviour:
   test: 
   lines:
   - {fileID: 11400000, guid: b43deb00e3b9b794d9abbde6dace53a3, type: 2}
-  - {fileID: 11400000, guid: 3c328a6af05b8d3458c599a5de264584, type: 2}
-  - {fileID: 11400000, guid: 2cfbdf6b00206bc45a8029cc8a351b38, type: 2}
-  - {fileID: 11400000, guid: 1629e646791589d4daea30cae953362a, type: 2}
-  byeLine: 
+  byeLine: 'Et laissez les stylos. '

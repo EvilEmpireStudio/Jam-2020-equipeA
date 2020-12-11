@@ -23,3 +23,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cfdcaa0179658ca40968e454d1fcb336, type: 2}
   byeLine: "Je n'en resterai pas l\xE0 ! C'est honteux !"
   swap: {fileID: 0}
+  stay: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a79b6c6e69bae419557d456ec3f637, type: 3}
   m_Name: Paresse-C 1
   m_EditorClassIdentifier: 
-  line: 'T''inquetes, t''en sortiras un jour ! '
+  line: 'T''inquetes, tu t''en sortiras un jour ! '
   answers: []
   censored: 000000
   answerReaction: 

@@ -51,11 +51,6 @@ MonoBehaviour:
   smsDataList:
   - {fileID: 11400000, guid: 2ec1f5e78feadf142b067231c824568a, type: 2}
   - {fileID: 11400000, guid: 014b7da3dbee6aa41833df6d9bed7dbd, type: 2}
-  - {fileID: 11400000, guid: 44eeff48ab0d9254ab38cef99158dbcb, type: 2}
-  - {fileID: 11400000, guid: 9c1ae77635ee43e4f8f4b50b348a7a58, type: 2}
   - {fileID: 11400000, guid: 79baa2262433a2c4f9fd71ed6dc353ae, type: 2}
-  - {fileID: 11400000, guid: 6417208f73a1cb24eb107ef9f89f4cab, type: 2}
-  - {fileID: 11400000, guid: f8690ed0b39978844b485f355e4e418b, type: 2}
   - {fileID: 11400000, guid: 98f25d2f1d302c643a78f6ff1500c53b, type: 2}
-  - {fileID: 11400000, guid: 941a62b93996fe9429d1fa8df998dc33, type: 2}
   - {fileID: 11400000, guid: 21c10975e55104945a9b23e493539449, type: 2}

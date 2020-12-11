@@ -20,5 +20,5 @@ MonoBehaviour:
   lines:
   - {fileID: 11400000, guid: 5fd7dbb7baa81e34ca720d24c30f5cba, type: 2}
   - {fileID: 11400000, guid: 34adebb04e6e3094eb6ebd62e26a2bd0, type: 2}
-  byeLine: On se voit l'appart !
+  byeLine: "On se voit \xE0 l'appart !"
   swap: {fileID: 0}

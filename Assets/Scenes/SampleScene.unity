@@ -3656,7 +3656,7 @@ PrefabInstance:
     - target: {fileID: 584053181563572071, guid: 76cda24cb6bf84b4ea72973c55da3e8b,
         type: 3}
       propertyPath: overlayPlayed
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 584053181563572071, guid: 76cda24cb6bf84b4ea72973c55da3e8b,
         type: 3}

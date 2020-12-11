@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 992913179411690015}
   - component: {fileID: 992913179411690012}
   - component: {fileID: 992913179411690011}
+  - component: {fileID: 1230965523}
   m_Layer: 8
   m_Name: item
   m_TagString: Untagged
@@ -111,6 +112,23 @@ MonoBehaviour:
   state: 0
   data: {fileID: 0}
   client: {fileID: 0}
+--- !u!111 &1230965523
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992913179411690000}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 060e81d6994e42b4c8f387a9de875cb5, type: 2}
+  - {fileID: 7400000, guid: cb39205547f3b3e44b8d134724ea2959, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1124949146423239688
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,6 +25,7 @@ public class DragBehaviour : MonoBehaviour
         {
             mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
             mOffset = gameObject.transform.position - GetMouseWorldPos();
+            GetComponent<Animation>().Play("catch");
         }
     }
 
@@ -40,6 +41,14 @@ public class DragBehaviour : MonoBehaviour
         if (GameManager.instance.mode == GameManager.Mode.Shop)
         {
             transform.position = GetMouseWorldPos() + mOffset;
+        }
+    }
+
+    void OnMouseUp()
+    {
+        if (GameManager.instance.mode == GameManager.Mode.Shop)
+        {
+            GetComponent<Animation>().Play("release");
         }
     }
 }

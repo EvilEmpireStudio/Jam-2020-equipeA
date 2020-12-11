@@ -57,10 +57,10 @@ public class Item : MonoBehaviour
         switch (state)
         {
             case State.Scanned:
-                GetComponent<SpriteRenderer>().color = Color.green;
+                transform.GetChild(0).gameObject.SetActive(true);
                 break;
             default:
-                GetComponent<SpriteRenderer>().color = Color.white;
+                //GetComponent<SpriteRenderer>().color = Color.white;
                 break;
         }
     }
